@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="TROLL_KINGDOMS" name="Troll Kingdoms" revision="1" battleScribeVersion="2.03" authorName="xDIABOx" authorContact="" authorUrl="https://battletacticsgame.wordpress.com/" library="false" gameSystemId="GAME_BattleTactics" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Troll Kingdoms is an adaptation of the Trollbloods faction from Privateer Press Hordes game to the Battle Tactics system.
+
+**FAIR USE**
+
+Battle Tactics is a non-profit and totally open source game system that does not want to violate any trademarks and propriety IP.
+We credit gaming companies for their products, IP and themes. All rights reserved to the companies that provide those IP.
+No trademark infringements are intended.</readme>
+  <categoryEntries>
+    <categoryEntry id="7808-ac14-d107-06ab" name="Troll" hidden="false"/>
+    <categoryEntry id="1be6-d36c-0193-7e26" name="Trollkin" hidden="false"/>
+    <categoryEntry id="a6e9-c658-fc78-8fee" name="Pygmy" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="8e48-886c-dcca-6ca4" name="Runemaster [500 CR • 16 POW]" publicationId="PUB_Rulebook" hidden="false">
+      <constraints>
+        <constraint field="COST_CR" scope="force" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="26bb-952c-15fd-f275" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="bf00-d349-05ea-b830" name="Runemaster" hidden="false">
+          <description>
+500 Crowns
+16 POW
+Spell cards casted by this Master cost 1 less POW to be cast.
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8bee-c5c7-e2b1-96e2" name="Homeland" hidden="false" targetId="CAT_Homeland" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a97a-4c96-a412-f05b" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1978-e2cd-0907-6d21" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d824-df96-5e12-7ba4" name="Unit" hidden="false" targetId="CAT_Unit" primary="false"/>
+        <categoryLink id="7a0a-5d2c-edfc-a981" name="Unit Replacement" hidden="false" targetId="CAT_Extras" primary="false"/>
+        <categoryLink id="6e70-747f-f0f1-e603" name="Master Deck" hidden="false" targetId="CAT_Deck" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="9401-96e2-eb4a-384e" name="Chieftain [500 CR • 20 POW]" publicationId="PUB_Rulebook" hidden="false">
+      <constraints>
+        <constraint field="COST_CR" scope="force" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6848-ed89-3d13-2265" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="6f3f-c159-58ee-1eb7" name="Chieftain [500 CR • 20 POW]" hidden="false">
+          <description>
+500 Crowns
+20 POW
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="0357-4021-db66-95eb" name="Homeland" hidden="false" targetId="CAT_Homeland" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29e8-3fd1-e661-b15b" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38aa-6835-86a6-4935" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="9028-f8ef-0611-3ed4" name="Unit" hidden="false" targetId="CAT_Unit" primary="false"/>
+        <categoryLink id="c24f-ffb6-5bf4-2238" name="Unit Replacement" hidden="false" targetId="CAT_Extras" primary="false"/>
+        <categoryLink id="945a-92bc-191e-76e3" name="Master Deck" hidden="false" targetId="CAT_Deck" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="fee2-2025-40fe-d909" name="Warlord [500 CR • 24 POW]" publicationId="PUB_Rulebook" hidden="false">
+      <constraints>
+        <constraint field="COST_CR" scope="force" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5211-f3f9-1a52-23f5" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="3318-8b8b-23f6-70f4" name="Warlord [500 CR • 24 POW]" hidden="false">
+          <description>
+500 Crowns
+24 POW
+This Master cannot use Spell cards.
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="e43f-4b69-faeb-8016" name="Homeland" hidden="false" targetId="CAT_Homeland" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0177-4b19-c081-3908" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2a2-853f-49ea-4c8b" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="0ab9-0256-0232-1308" name="Unit" hidden="false" targetId="CAT_Unit" primary="false"/>
+        <categoryLink id="6bce-1122-27cb-a29e" name="Unit Replacement" hidden="false" targetId="CAT_Extras" primary="false"/>
+        <categoryLink id="29be-5eb9-9b92-b7b1" name="Master Deck" hidden="false" targetId="CAT_Deck" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="b88b-f313-955d-70f9" name="Terrain" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="edc8-3eab-a28a-0d0a" name="New CategoryLink" hidden="false" targetId="CAT_Homeland" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9c7e-26da-728b-dc5b" name="Terrain" hidden="false" collective="false" import="true" targetId="38f0-f7df-b106-3cab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="03db-73d5-41be-2aa7" name="Spells" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fee2-2025-40fe-d909" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d24-c9f9-d417-0163" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="915d-2d19-d30a-9d1c" name="Master Deck" hidden="false" targetId="CAT_Deck" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a566-6cfb-9625-762b" name="Spells" hidden="false" collective="false" import="true" targetId="bd3e-3948-8ea0-8b20" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="34f5-334e-efe5-4094" name="Living Lands" hidden="false" collective="false" import="true" targetId="LivingLands" type="selectionEntry"/>
+            <entryLink id="5136-5da9-11f4-c271" name="Power of the Elements" hidden="false" collective="false" import="true" targetId="PowerElements" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="acda-1fc2-0aa0-fbcb" name="Tactics" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f37-4eda-02e8-1a6d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3280-87e1-2732-e232" name="New CategoryLink" hidden="false" targetId="CAT_Deck" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="49dc-f0f5-c4a1-352b" name="Tactics" hidden="false" collective="false" import="true" targetId="f731-2270-c19c-d5ea" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="c938-c332-348f-8084" name="Dozer" hidden="false" collective="false" import="true" targetId="a5cd-6065-3cc4-ae6c" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7c7c-1339-f86f-1ef7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3ef3-b747-9563-7c14" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cb40-be96-1116-3dd4" name="Grim Hunter" hidden="false" collective="false" import="true" targetId="01f9-0dd2-ee65-fbd6" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fa70-7747-062f-18fa" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0a51-e0e1-7b5c-14b3" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2850-23db-2e64-c81d" name="Troll Dire Bomber" hidden="false" collective="false" import="true" targetId="f8d5-c0b5-727a-7e00" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="afd0-72d6-b8f5-b8f0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f80e-8853-4e5f-b14f" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="eb0e-efbe-3566-0665" name="Pygmy Keg Carrier" hidden="false" collective="false" import="true" targetId="5d5a-fbaf-c96f-0c2d" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fc3-94cf-b10c-b485" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8973-ffff-b29d-faa7" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1d18-339d-48cd-e4d7" name="Trollkin Krielstone Bearer" hidden="false" collective="false" import="true" targetId="9250-6aa2-804c-6d16" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="625d-f184-537b-16b1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4239-b6f8-efa1-2965" name="Unit" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1986-3242-99d4-9032" name="Krielstone" hidden="false" collective="false" import="true" targetId="2167-1651-8f8c-d773" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9250-6aa2-804c-6d16" type="notEqualTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="4fe8-8c21-e2cb-f627" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9250-6aa2-804c-6d16" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="dc32-31af-f6c3-5aa4" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9250-6aa2-804c-6d16" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fe8-8c21-e2cb-f627" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc32-31af-f6c3-5aa4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2eb9-947e-8955-3f9b" name="New CategoryLink" hidden="false" targetId="CAT_Extras" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="afda-fa09-1278-3c2e" name="Pyg Burrowers" hidden="false" collective="false" import="true" targetId="d367-2d5c-e708-b490" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d5f-4943-1ba5-307f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c167-dd6e-3a7f-64cf" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="83e6-ebf4-5024-0ddd" name="Pyg Scope" hidden="false" collective="false" import="true" targetId="321f-d6ce-f813-50ee" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d367-2d5c-e708-b490" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="267e-90a6-66f6-4d68" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d367-2d5c-e708-b490" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="bd82-1ade-a910-6cda" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d367-2d5c-e708-b490" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="267e-90a6-66f6-4d68" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d367-2d5c-e708-b490" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="bd82-1ade-a910-6cda" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d367-2d5c-e708-b490" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="267e-90a6-66f6-4d68" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd82-1ade-a910-6cda" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f1d4-7cb3-bc6b-ab95" name="New CategoryLink" hidden="false" targetId="CAT_Extras" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="77e0-75ae-b957-69df" name="Trollkin Stone Scribes" hidden="false" collective="false" import="true" targetId="2f1f-89f2-c6e4-56c6" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fa6-b4f2-07f1-d912" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4bac-28e3-9618-6b75" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d6c5-24ff-1bbc-70a4" name="Trollkin Runebearer" hidden="false" collective="false" import="true" targetId="1b5f-234d-4255-158a" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d8c-fd7b-e813-6f55" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d418-6a6c-9d22-d973" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b1a9-e6c5-761a-ca4e" name="Rök" hidden="false" collective="false" import="true" targetId="35fb-f74e-d160-e3ba" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71f5-1caf-2439-cf27" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9378-99c6-f176-a89d" name="Unit" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9922-8972-97e0-2917" name="Jarl Skuld" hidden="false" collective="false" import="true" targetId="bd36-57c6-4647-bf65" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="884f-2bd8-b9db-1bde" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4847-4d43-af48-e175" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c4f2-886a-8ec7-7b21" name="Hoarluk Doomshaper" hidden="false" collective="false" import="true" targetId="6e8a-6fe3-e415-e38f" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2a59-f96f-b6e2-45fc" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c0c2-8c08-2e1a-3a90" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d7c0-9fec-d0ae-f9c7" name="Trollkin Stone Scribe Chronicler" hidden="false" collective="false" import="true" targetId="6282-579a-1691-9d5d" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b057-cd99-ddbe-d6e6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1e2e-a61f-1ebd-16f7" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b1e0-f705-024f-2f4d" name="Troll Impaler" hidden="false" collective="false" import="true" targetId="55e2-835b-bf4d-80a5" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="67da-221a-324e-e5ee" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0a8c-9c2d-2c45-7c62" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="71f9-4f6a-1f4d-22a6" name="Trollkin Fennblades" hidden="false" collective="false" import="true" targetId="0cec-7ab1-be4a-ff8a" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2e1d-9603-f067-f726" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1589-0600-51af-00b9" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="461f-6386-25bd-763d" name="Trollkin Kriel Warriors" hidden="false" collective="false" import="true" targetId="c41b-3bee-0c9f-0ad3" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b41b-4ec3-45f6-43d5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3be7-66be-fe22-0823" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="357e-0910-e94c-07cd" name="Trollkin Runeshapers" hidden="false" collective="false" import="true" targetId="0c45-b33b-d536-df19" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d6f7-1a88-6d32-11ca" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9540-7e5c-8fad-6b51" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="LivingLands" name="Living Lands" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="637b-8aca-0f9d-87de" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="47bc-b96f-135b-4906" name="Living Lands" hidden="false" typeId="PROFILE_Card" typeName="Card">
+          <characteristics>
+            <characteristic name="Type" typeId="a42b-0732-1c22-6c18">Spell</characteristic>
+            <characteristic name="S•A•R" typeId="0cbc-107b-b97b-2de1">Action</characteristic>
+            <characteristic name="POW" typeId="34cf-cae0-1702-f4b0">2</characteristic>
+            <characteristic name="RNG" typeId="462e-45df-588e-2680">8&quot;</characteristic>
+            <characteristic name="Target" typeId="145d-b2f8-8ba7-04a1">Forest Terrain</characteristic>
+            <characteristic name="Rules" typeId="0483-be00-cb50-3e84">All Units within Target Forest suffer 2D6 Hits STR: 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e722-a1bc-ade7-6bb7" name="Spell" hidden="false" targetId="CAT_Spell" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="5.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="PowerElements" name="Power of the Elements" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9bb-ac72-eee7-6ce2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6021-2049-37e6-4a97" name="Power of the Elements" hidden="false" typeId="PROFILE_Card" typeName="Card">
+          <characteristics>
+            <characteristic name="Type" typeId="a42b-0732-1c22-6c18">Spell</characteristic>
+            <characteristic name="S•A•R" typeId="0cbc-107b-b97b-2de1">Action</characteristic>
+            <characteristic name="POW" typeId="34cf-cae0-1702-f4b0">2</characteristic>
+            <characteristic name="RNG" typeId="462e-45df-588e-2680">6&quot;</characteristic>
+            <characteristic name="Target" typeId="145d-b2f8-8ba7-04a1">Friendly Unit</characteristic>
+            <characteristic name="Rules" typeId="0483-be00-cb50-3e84">Choose one Element:
+
+Air: Target Unit gains MV: +1&quot; until EOT
+Earth: Target Unit gains ARM: +1 until EOT
+Fire: Target Unit gains STR: +1 until EOT
+Water: Target Unit gains DEF: +1 until EOT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="cde4-217c-1ff7-ce4f" name="Spell" hidden="false" targetId="CAT_Spell" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a5cd-6065-3cc4-ae6c" name="Dozer" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e84a-ae95-b888-7a90" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2cb2-ff30-aa18-41dc" name="Dozer" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">4</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">4</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">4</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">8</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">L</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fdcc-682b-6162-682b" name="Siege Cannon" hidden="false" typeId="PROFILE_RangedAttack" typeName="Unit Ranged Attack">
+          <characteristics>
+            <characteristic name="RNG" typeId="2667-19c2-40f2-700a">12&quot;</characteristic>
+            <characteristic name="ATT" typeId="6200-41ee-87ec-3c0e">1</characteristic>
+            <characteristic name="STR" typeId="c3cc-66f6-23ae-78f6">6</characteristic>
+            <characteristic name="Type" typeId="ea52-cf35-191e-5b9b"/>
+            <characteristic name="Rules" typeId="08f6-efee-f80b-457d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="68fc-0546-edce-d37c" name="Unique" hidden="false" targetId="SHARED_PRO_Unique" type="profile"/>
+        <infoLink id="25ee-e7ee-dae6-1d2e" name="Bombardment" hidden="false" targetId="2609-37ca-4ba9-a944" type="profile"/>
+        <infoLink id="2e4b-e535-5b1a-afd7" name="Explosive: 4&quot;" hidden="false" targetId="0f50-ee8f-4c72-6ded" type="profile"/>
+        <infoLink id="345e-431a-f278-bcf0" name="Regeneration (1)" hidden="false" targetId="86d9-256d-afdd-e938" type="profile"/>
+        <infoLink id="ffce-efa9-8bab-e010" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="14a7-e0a9-18e4-d6bd" name="Troll" hidden="false" targetId="7808-ac14-d107-06ab" primary="false"/>
+        <categoryLink id="69c0-ed34-28b1-3d33" name="Monster" hidden="false" targetId="CAT_Monster" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="50.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="01f9-0dd2-ee65-fbd6" name="Grim Hunter" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aab6-061f-7f68-7596" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f7d3-b825-099b-ddd5" name="Grim Hunter" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">2</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">8</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">4</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">5</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ff8a-b7c3-72f6-32cd" name="Hunting Rifle" hidden="false" typeId="PROFILE_RangedAttack" typeName="Unit Ranged Attack">
+          <characteristics>
+            <characteristic name="RNG" typeId="2667-19c2-40f2-700a">16&quot;</characteristic>
+            <characteristic name="ATT" typeId="6200-41ee-87ec-3c0e">1</characteristic>
+            <characteristic name="STR" typeId="c3cc-66f6-23ae-78f6">4</characteristic>
+            <characteristic name="Type" typeId="ea52-cf35-191e-5b9b"/>
+            <characteristic name="Rules" typeId="08f6-efee-f80b-457d">On a Critical Hit it automatically deals its Damage</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0e35-7a29-a586-5b83" name="Snare Trap" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">2</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Target one Enemy Unit at RNG: 8&quot;.
+Target Unit gains DEF: 5 until EOT.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5d35-7e80-4b4e-82ed" name="Unique" hidden="false" targetId="SHARED_PRO_Unique" type="profile"/>
+        <infoLink id="375a-eb63-cde2-1125" name="Another One Bites The Dust" hidden="false" targetId="ea87-cae4-4e6d-5a4b" type="profile"/>
+        <infoLink id="a438-a7b2-f57c-9022" name="Camouflage" hidden="false" targetId="4c71-e534-9bf0-fa7e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="269e-9669-da9f-fafc" name="Trollkin" hidden="false" targetId="1be6-d36c-0193-7e26" primary="false"/>
+        <categoryLink id="7e1a-f430-2af6-0fe7" name="Hero" hidden="false" targetId="CAT_Hero" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="46.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f8d5-c0b5-727a-7e00" name="Troll Dire Bomber" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2f05-0c7e-b931-3d35" name="Dire Bomber" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">2</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">3</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">7</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">L</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7aad-1099-0129-686c" name="Keg Bombs" hidden="false" typeId="PROFILE_RangedAttack" typeName="Unit Ranged Attack">
+          <characteristics>
+            <characteristic name="RNG" typeId="2667-19c2-40f2-700a">12&quot;</characteristic>
+            <characteristic name="ATT" typeId="6200-41ee-87ec-3c0e">2</characteristic>
+            <characteristic name="STR" typeId="c3cc-66f6-23ae-78f6">4</characteristic>
+            <characteristic name="Type" typeId="ea52-cf35-191e-5b9b">Fire</characteristic>
+            <characteristic name="Rules" typeId="08f6-efee-f80b-457d">On a Critical Hit the Target gains the Burning condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9cf3-78c0-b456-3090" name="Keg Burst" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Reaction	</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">2</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">This Reaction can only be used if this Unit becomes Engaged by a Charge Action.
+This Unit makes 4 Attacks STR: 2 Fire Damage against the Charging Unit after that Unit has moved and before any Attacks dealt by the Charging Unit.
+On any Critical Hits, the Charging Unit gains the Burned condition.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="db8c-a4a0-9142-606c" name="Regeneration (1)" hidden="false" targetId="86d9-256d-afdd-e938" type="profile"/>
+        <infoLink id="6ec1-a30b-bea3-3c59" name="Burned" hidden="false" targetId="299c-ae27-5314-bedb" type="rule"/>
+        <infoLink id="3ab8-8e16-8294-0b52" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4422-4325-4880-dfba" name="Troll" hidden="false" targetId="7808-ac14-d107-06ab" primary="false"/>
+        <categoryLink id="17d3-ad4d-1b0e-0d54" name="Monster" hidden="false" targetId="CAT_Monster" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="32.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d5a-fbaf-c96f-0c2d" name="Pygmy Keg Carrier" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d217-3990-c94b-79ff" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5c7c-f4a9-fed0-98dc" name="Pygmy Keg Carrier" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">0</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">0</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">2</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">S</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4fc4-80dc-6f91-3edf" name="Mischievous" hidden="false" typeId="PROFILE_UnitRules" typeName="Unit Special Rules">
+          <characteristics>
+            <characteristic name="Rules" typeId="cef0-f08a-37af-c98e">This Unit cannot be targeted by Enemy Actions while it is within 4&quot; of another non-Pygmy Friendly Unit</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3cf7-b8a2-664a-3d48" name="Fire it Down!" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">1</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Destroy this Unit. All Units within 4&quot; of this Unit suffer 1 Hit STR: 4 Fire Damage. Any Units Damaged this way gain the Burning condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d78a-231b-e7c6-277a" name="Fire it Up!" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">1</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Target a Friendly Unit at RNG: 4&quot;. Target Unit gains the Fire type to its Attacks until EOT that on a Critical Hit against its Targets, those Targets gain the Burned condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1ddd-6519-3097-e0e8" name="Raise Spirits" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">1</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Target a Friendly Unit at RNG: 4&quot;. Target Unit gains ATT: +1 and DEF: -1 until EOT.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fea1-e8b1-8fcb-2467" name="Burned" hidden="false" targetId="299c-ae27-5314-bedb" type="rule"/>
+        <infoLink id="ad2e-3f50-1f62-784a" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a2ca-8269-457b-931e" name="Pygmy" hidden="false" targetId="a6e9-c658-fc78-8fee" primary="false"/>
+        <categoryLink id="dae8-dd6c-0c77-a02d" name="Hero" hidden="false" targetId="CAT_Hero" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="20.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9250-6aa2-804c-6d16" name="Trollkin Krielstone Bearer" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0a6-383e-69c1-da8d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5f2c-3240-794b-e2ed" name="Stone Carrier" hidden="false" typeId="PROFILE_UnitRules" typeName="Unit Special Rules">
+          <characteristics>
+            <characteristic name="Rules" typeId="cef0-f08a-37af-c98e">If this Unit is Destroyed, it drops the Krielstone in the same place where its base was when Destroyed. Deploy the Krielstone model in that place and use it for the rest of the Battle or until it gets Destroyed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dae8-1fa8-2264-94e4" name="Krielstone Bearer" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">4&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">0</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">0</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">4</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">4</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0f68-f548-76a1-30d4" name="Activate: Krielstone" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">2</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">If this Unit is within 4&quot; from the center of the Battlefield its Master gains 2 VP.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="15d3-6ecd-00b9-9f58" name="Channel" hidden="false" targetId="e8c8-97bb-810e-3a06" type="profile"/>
+        <infoLink id="adaa-3c43-72cc-d880" name="Replaceable" hidden="false" targetId="d8b6-543e-09d9-1c79" type="rule"/>
+        <infoLink id="8205-c96f-4ed4-2d3d" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e4fa-9fd4-7ecd-0a2f" name="Trollkin" hidden="false" targetId="1be6-d36c-0193-7e26" primary="false"/>
+        <categoryLink id="f42c-32bb-4004-9dd0" name="Hero" hidden="false" targetId="CAT_Hero" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="17.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2167-1651-8f8c-d773" name="Krielstone" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d00-9465-18ce-ccb3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a00c-ab1b-3bc5-5fc4" name="Krielstone" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">0&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">-</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">-</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">4</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">6</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">8</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">L</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="238f-dac0-98f7-882e" name="Power Battery" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">0</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Target a Friendly Unit at RNG: 4&quot;. Target Unit gains 3 POW.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c7ef-b929-133c-ed56" name="Channel" hidden="false" targetId="e8c8-97bb-810e-3a06" type="profile"/>
+        <infoLink id="5133-9e6f-b764-adf5" name="Immobile" hidden="false" targetId="c2be-7f21-d178-36c3" type="profile"/>
+        <infoLink id="5d3a-9706-60f9-d5c5" name="Living Objective" hidden="false" targetId="af85-ab11-761c-dd3a" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="60cc-7097-d989-305d" name="Object" hidden="false" targetId="CAT_Object" primary="false"/>
+        <categoryLink id="339c-6d89-1726-ad40" name="Objective" hidden="false" targetId="CAT_Objective" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d367-2d5c-e708-b490" name="Pyg Burrowers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2c93-70a9-3474-de70" name="The Pygmy Escape Plan" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Reaction</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">2</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Choose one Model from this Unit and replace it with the Pyg Scope model. Remove the remaining models of this Unit from the Battlefield and set this Unit aside, reserved. This Unit is replaced by the Pyg Scope Unit.
+If this Unit was Controlling an Objective or holding a Flag, it immediately ceases the Control of the Objective and drops the Flag next to the Pyg Scope model.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9bca-a282-7e00-4e8e" name="Slug Rifle" hidden="false" typeId="PROFILE_RangedAttack" typeName="Unit Ranged Attack">
+          <characteristics>
+            <characteristic name="RNG" typeId="2667-19c2-40f2-700a">8&quot;</characteristic>
+            <characteristic name="ATT" typeId="6200-41ee-87ec-3c0e">1</characteristic>
+            <characteristic name="STR" typeId="c3cc-66f6-23ae-78f6">2</characteristic>
+            <characteristic name="Type" typeId="ea52-cf35-191e-5b9b"/>
+            <characteristic name="Rules" typeId="08f6-efee-f80b-457d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fd8f-5b1d-75f5-c422" name="Replaceable" hidden="false" targetId="d8b6-543e-09d9-1c79" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ea78-5ebf-2f65-b53f" name="Pygmy" hidden="false" targetId="a6e9-c658-fc78-8fee" primary="false"/>
+        <categoryLink id="1dd2-47e2-b7f4-055e" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0a02-f3d0-8773-9460" name="Pyg Burrower" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f02-190d-2a05-c684" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b66-abba-6831-171b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d419-9692-3732-a711" name="Pyg Burrower" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">1</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">S</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="69.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="321f-d6ce-f813-50ee" name="Pyg Scope" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4f26-2184-d7b8-0799" name="Pyg Scope" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">4&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">-</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">-</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">-</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">-</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">-</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">S</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cf00-b624-5f8d-bd3c" name="Six Feet Deep" hidden="false" typeId="PROFILE_UnitRules" typeName="Unit Special Rules">
+          <characteristics>
+            <characteristic name="Rules" typeId="cef0-f08a-37af-c98e">If this Unit is on the Battlefield at the End of Battle, the Unit it traded for is considered Destroyed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0d99-5bd5-0caa-59f3" name="Surprise!!" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">2</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Replace this model with one model from the Unit it traded for and was set aside. Deploy the rest of that Unit&apos;s models in coherency and within 6&quot; from this model&apos;s position. This Unit is replaced by the Pyg Burrowers Unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="71c4-954e-3b05-fae3" name="Immune to Damage" hidden="false" targetId="768e-8ec5-fba3-83d6" type="profile"/>
+        <infoLink id="0a95-cf93-a2c8-25f3" name="Untargetable" hidden="false" targetId="acc1-57ec-7ad0-eaaa" type="profile"/>
+        <infoLink id="7627-87fa-a922-b773" name="Limited Moves" hidden="false" targetId="6e55-6499-0fa0-a4f4" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="92ff-1681-1e9f-7fe6" name="Pygmy" hidden="false" targetId="a6e9-c658-fc78-8fee" primary="false"/>
+        <categoryLink id="78fa-632b-501c-4a8e" name="Object" hidden="false" targetId="CAT_Object" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f1f-89f2-c6e4-56c6" name="Trollkin Stone Scribes" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb7c-8016-28cf-627e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="31b8-e334-101c-5bf0" name="Noble Sacrifice" hidden="false" typeId="PROFILE_UnitRules" typeName="Unit Special Rules">
+          <characteristics>
+            <characteristic name="Rules" typeId="cef0-f08a-37af-c98e">When a Friendly Krielstone Unit or Krielstone Bearer Unit Unit within 4&quot; of this Unit becomes the Target of a Ranged Attack or Spell, its Master may change the Target of that Ranged Attack or Spell to this Unit instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f2a3-0876-b39a-2bb3" name="Infused by the Stone" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Skill</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">1</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Any models from this Unit within 4&quot; of a Friendly Krielstone Unit or Krielstone Bearer Unit gain ATT: +1 until EOT.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5f25-6971-2020-c892" name="Trollkin" hidden="false" targetId="1be6-d36c-0193-7e26" primary="false"/>
+        <categoryLink id="6948-0014-6cf9-4157" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f7a7-70c8-1cb4-99f0" name="Stone Scribe" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f582-9459-8084-6837" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4e4-c790-997d-05d4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ba3c-8e15-085f-1bd9" name="Stone Scribe" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">3</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b5f-234d-4255-158a" name="Trollkin Runebearer" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c4e-49e3-b5c1-4026" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c6d0-a547-5cfb-d758" name="Runebearer" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">2</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">4</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7dbf-32f0-ddc9-b910" name="Blessing of the Stones" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">2</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Target a Friendly Unit at RNG: 8&quot;. Target Unit&apos;s Attacks gain Earth Damage and any Critical Hits automatically deal Damage.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f588-ce07-b627-e5fd" name="Curse of Stone" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">2</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Target an Enemy Unit at RNG: 8&quot;. Target Unit gains the Sanded condition.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9173-a98c-99ba-c33a" name="Immune to Magic" hidden="false" targetId="2503-4a47-458c-c766" type="profile"/>
+        <infoLink id="9101-d178-3180-e55e" name="Sanded" hidden="false" targetId="a13e-d77b-a487-d0e3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e43d-a3bb-fc1c-02b3" name="Trollkin" hidden="false" targetId="1be6-d36c-0193-7e26" primary="false"/>
+        <categoryLink id="0149-a364-3ace-c104" name="Hero" hidden="false" targetId="CAT_Hero" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="28.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="35fb-f74e-d160-e3ba" name="Rök" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13f3-98bc-012a-2f4e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7856-3d25-7b4d-204d" name="Rök" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">6</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">4</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">8</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">L</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="adf2-9939-04f6-2fdb" name="Frost Breath" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">2</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Target an Enemy Unit at RNG: 8&quot;. Target Unit gains the Frozen condition.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="705d-a176-8b44-644a" name="Unique" hidden="false" targetId="SHARED_PRO_Unique" type="profile"/>
+        <infoLink id="3f63-0dc8-c668-d6fd" name="Regeneration (1)" hidden="false" targetId="86d9-256d-afdd-e938" type="profile"/>
+        <infoLink id="68c4-db8b-1a1a-e1b2" name="Self-Sufficient: 3" hidden="false" targetId="e37e-3ae0-6729-79af" type="profile"/>
+        <infoLink id="fdef-d088-b980-77b7" name="Immune to Ice" hidden="false" targetId="30be-28bc-757c-83c5" type="profile"/>
+        <infoLink id="0b8e-98e0-426c-98db" name="Freezing" hidden="false" targetId="aa70-1941-b7e7-97f9" type="rule"/>
+        <infoLink id="3448-b45e-9120-2d30" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="265b-4b91-9fcd-c218" name="Troll" hidden="false" targetId="7808-ac14-d107-06ab" primary="false"/>
+        <categoryLink id="02ac-ca9e-92f4-1c03" name="Monster" hidden="false" targetId="CAT_Monster" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="58.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bd36-57c6-4647-bf65" name="Jarl Skuld" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f71-9281-27e2-9179" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="092d-3836-469c-ad71" name="Jarl Skuld" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">4</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">4</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">5</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e8b8-e327-b062-de74" name="Brace of Pistols" hidden="false" typeId="PROFILE_RangedAttack" typeName="Unit Ranged Attack">
+          <characteristics>
+            <characteristic name="RNG" typeId="2667-19c2-40f2-700a">8&quot;</characteristic>
+            <characteristic name="ATT" typeId="6200-41ee-87ec-3c0e">2</characteristic>
+            <characteristic name="STR" typeId="c3cc-66f6-23ae-78f6">2</characteristic>
+            <characteristic name="Type" typeId="ea52-cf35-191e-5b9b"/>
+            <characteristic name="Rules" typeId="08f6-efee-f80b-457d">On a Critical Hit it does one extra Hit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b082-5dc6-95a8-e10a" name="I&apos;ll See You at Noon" hidden="false" typeId="PROFILE_UnitRules" typeName="Unit Special Rules">
+          <characteristics>
+            <characteristic name="Rules" typeId="cef0-f08a-37af-c98e">This Unit re-rolls failed Ranged Attacks against Enemy Hero Units.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5e3a-88f4-d0ca-b60c" name="Pow Pow Pow Pow" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Shoot Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">2</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Change this Unit&apos;s Ranged Attack to ATT: 4 and STR: 2 that also looses its Critical Hits effect.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7915-bdcc-7876-0acc" name="Unique" hidden="false" targetId="SHARED_PRO_Unique" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0a23-2c1a-5a28-7acd" name="Trollkin" hidden="false" targetId="1be6-d36c-0193-7e26" primary="false"/>
+        <categoryLink id="1934-b184-51b8-4ff5" name="Hero" hidden="false" targetId="CAT_Hero" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="34.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6e8a-6fe3-e415-e38f" name="Hoarluk Doomshaper" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="704e-c463-790c-555a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4f00-9d25-eafa-7861" name="Hoarluk Doomshaper" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">3</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">3</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">5</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2d65-d96a-206c-3d1c" name="Doom Shaman" hidden="false" typeId="PROFILE_UnitRules" typeName="Unit Special Rules">
+          <characteristics>
+            <characteristic name="Rules" typeId="cef0-f08a-37af-c98e">This Unit may cast one additional Spell as an extra Action if its previous two Actions were also Spell Actions.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ef88-306e-ba01-52c4" name="Shaping Doom" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Spell Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">3</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Target one Unit at RNG: 8&quot;.
+During that Unit&apos;s Activation, the Master of this Unit may change the result of any one rolled die to a result of their choice.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="81bc-ae74-dd53-ecd4" name="Unique" hidden="false" targetId="SHARED_PRO_Unique" type="profile"/>
+        <infoLink id="54a4-82b4-5699-dab2" name="Spellcaster: 2" hidden="false" targetId="32a1-585f-20f2-3af3" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f6eb-410b-2351-6943" name="Trollkin" hidden="false" targetId="1be6-d36c-0193-7e26" primary="false"/>
+        <categoryLink id="0a88-428b-fc4d-1f3c" name="Hero" hidden="false" targetId="CAT_Hero" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="40.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6282-579a-1691-9d5d" name="Trollkin Stone Scribe Chronicler" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d83e-7023-7fb4-2043" name="Stone Scribe Chronicler" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">2</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">4</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3c0e-8b11-7fd5-87d9" name="Spellcaster: 2" hidden="false" targetId="32a1-585f-20f2-3af3" type="profile"/>
+        <infoLink id="12c4-e8d8-0fb0-38d2" name="Dispel Scroll" hidden="false" targetId="4d9d-dd5e-10bc-e846" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d30d-3df4-0f8b-506f" name="Trollkin" hidden="false" targetId="1be6-d36c-0193-7e26" primary="false"/>
+        <categoryLink id="e9af-54ea-b593-6749" name="Hero" hidden="false" targetId="CAT_Hero" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="27.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="55e2-835b-bf4d-80a5" name="Troll Impaler" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f903-63ff-2e81-8eb5" name="Impaler" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">2</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">5</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">L</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6ea9-f761-8da9-4c66" name="Troll Javelin" hidden="false" typeId="PROFILE_RangedAttack" typeName="Unit Ranged Attack">
+          <characteristics>
+            <characteristic name="RNG" typeId="2667-19c2-40f2-700a">12&quot;</characteristic>
+            <characteristic name="ATT" typeId="6200-41ee-87ec-3c0e">1</characteristic>
+            <characteristic name="STR" typeId="c3cc-66f6-23ae-78f6">4</characteristic>
+            <characteristic name="Type" typeId="ea52-cf35-191e-5b9b"/>
+            <characteristic name="Rules" typeId="08f6-efee-f80b-457d"/>
+          </characteristics>
+        </profile>
+        <profile id="9f4d-dc2d-5ab2-b4cf" name="Rank Burst" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Shoot Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">2</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Change this Unit&apos;s Ranged Attack profile to ATT: 2 and STR: 2 if its Target is an Enemy Unit of size S.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6d4b-19b2-8526-aafe" name="Momentum Shot" hidden="false" targetId="945f-d882-341c-bc74" type="profile"/>
+        <infoLink id="8c10-96d9-b430-f060" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9a53-6e17-18d6-40ff" name="Troll" hidden="false" targetId="7808-ac14-d107-06ab" primary="false"/>
+        <categoryLink id="76c4-32d9-9375-9449" name="Monster" hidden="false" targetId="CAT_Monster" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="24.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0cec-7ab1-be4a-ff8a" name="Trollkin Fennblades" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="91eb-0fc1-2115-0e72" name="Sword Swipe" hidden="false" targetId="d6c5-375f-7ebd-b709" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="70ba-1919-cb9d-f977" name="Trollkin" hidden="false" targetId="1be6-d36c-0193-7e26" primary="false"/>
+        <categoryLink id="5e68-b266-63ff-620c" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5bb4-b608-46b3-f688" name="Fennblade" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21e2-4909-21bc-6b5c" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4df5-0ccd-9f2f-c3ae" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ff76-32bf-0b04-65f5" name="Fennblade" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">3</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">3</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c41b-3bee-0c9f-0ad3" name="Trollkin Kriel Warriors" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="ea68-d890-e530-30c9" name="Shields Up!" hidden="false" targetId="0b1d-6e82-78a8-63b4" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="206f-9f88-490a-6a92" name="Trollkin" hidden="false" targetId="1be6-d36c-0193-7e26" primary="false"/>
+        <categoryLink id="7c73-3982-6161-f32e" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="46c7-aff6-9edb-9cfa" name="Kriel Warrior" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f43-64e2-d8e9-b5bc" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f106-c4cb-102b-a533" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="eb42-87fd-ddb5-f12e" name="Kriel Warrior" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">4</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">3</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c45-b33b-d536-df19" name="Trollkin Runeshapers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="04f2-b453-adac-fb2e" name="Flying Rock" hidden="false" typeId="PROFILE_RangedAttack" typeName="Unit Ranged Attack">
+          <characteristics>
+            <characteristic name="RNG" typeId="2667-19c2-40f2-700a">12&quot;</characteristic>
+            <characteristic name="ATT" typeId="6200-41ee-87ec-3c0e">1</characteristic>
+            <characteristic name="STR" typeId="c3cc-66f6-23ae-78f6">3</characteristic>
+            <characteristic name="Type" typeId="ea52-cf35-191e-5b9b">Magic • Earth</characteristic>
+            <characteristic name="Rules" typeId="08f6-efee-f80b-457d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7892-380f-ba5b-646a" name="Immune to Earth" hidden="false" targetId="110f-d130-8836-0842" type="profile"/>
+        <infoLink id="8d70-c2ba-5757-c7da" name="Stone Skin" hidden="false" targetId="5498-5cef-600f-7de5" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8b4b-bc74-4619-eeea" name="Trollkin" hidden="false" targetId="1be6-d36c-0193-7e26" primary="false"/>
+        <categoryLink id="d388-1e59-7aa1-d613" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cc0f-7831-fe4d-3256" name="Runeshaper" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a7-5242-b66a-7647" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9cd-c3ea-b36d-30ab" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1908-63ec-5f60-89aa" name="Runeshaper" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">2</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">3</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="68.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="38f0-f7df-b106-3cab" name="Terrain" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdf0-c97c-fe70-e56d" type="max"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e67-bb0f-f8b1-2336" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="bb2e-fe1c-af3b-b6fe" name="Boulder" hidden="false" collective="false" import="true" targetId="6160-4ec2-7ebf-9f23" type="selectionEntry"/>
+        <entryLink id="35e2-dee8-1b56-ff4e" name="Forest" hidden="false" collective="false" import="true" targetId="ef6e-aa5a-df6c-bea1" type="selectionEntry"/>
+        <entryLink id="94b5-75ba-9662-bfe3" name="Hill" hidden="false" collective="false" import="true" targetId="9222-0ef7-9fa6-de15" type="selectionEntry"/>
+        <entryLink id="69b8-aef2-daa7-469c" name="Lake" hidden="false" collective="false" import="true" targetId="b678-5d26-1705-9ea9" type="selectionEntry"/>
+        <entryLink id="6a3e-45ac-22e0-cc87" name="Pond" hidden="false" collective="false" import="true" targetId="a114-99cb-e3db-9564" type="selectionEntry"/>
+        <entryLink id="2fc1-d568-4b3f-283d" name="River" hidden="false" collective="false" import="true" targetId="1a23-31c3-df1d-68fc" type="selectionEntry"/>
+        <entryLink id="32d4-53a4-4f14-a256" name="Sea" hidden="false" collective="false" import="true" targetId="9fc3-e743-3966-e370" type="selectionEntry"/>
+        <entryLink id="2b2c-fab0-c5ca-67c7" name="Swamp" hidden="false" collective="false" import="true" targetId="f120-c247-4944-13fc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9c5a-27b3-106a-4b27" name="Emperor&apos;s Custodes" revision="1" battleScribeVersion="2.03" authorName="xDIABOx" authorUrl="https://battletacticsgame.wordpress.com/" library="false" gameSystemId="GAME_BattleTactics" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Emperor&apos;s Custodes is an adaptation of the Adeptus Custodes faction from Games Workshop Warhammer 40,000 game to the Battle Tactics system
+
+**FAIR USE**
+
+Battle Tactics is a non-profit and totally open source game system that does not want to violate any trademarks and propriety IP.
+We credit gaming companies for their products, IP and themes. All rights reserved to the companies that provide those IP.
+No trademark infringements are intended.</readme>
+  <categoryEntries>
+    <categoryEntry id="ab82-bab1-4f6f-b9e1" name="Dreadnought" hidden="false"/>
+    <categoryEntry id="f889-8e32-9332-a951" name="Human" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="4495-ff18-712b-765d" name="General [500 CR • 20 POW]" publicationId="PUB_Rulebook" hidden="false">
+      <constraints>
+        <constraint field="COST_CR" scope="force" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5e8b-e3e8-2ca8-3fe5" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="755d-2128-29ee-7f28" name="General [500 CR • 20 POW]" hidden="false">
+          <description>
+500 Crowns
+20 POW
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="b3ed-2b9f-9c4c-6046" name="Homeland" hidden="false" targetId="CAT_Homeland" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9db1-8b49-81f0-12ae" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="742b-76bd-4dfc-ff62" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8357-c44a-753f-171f" name="Unit" hidden="false" targetId="CAT_Unit" primary="false"/>
+        <categoryLink id="191b-3765-990c-bccf" name="Unit Replacement" hidden="false" targetId="CAT_Extras" primary="false"/>
+        <categoryLink id="cbee-7e4f-ddcc-8e27" name="Master Deck" hidden="false" targetId="CAT_Deck" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="0858-b378-f88a-4f7d" name="Spells" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="720d-0588-5e09-06f7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="301f-a888-a2e2-239a" name="Master Deck" hidden="false" targetId="CAT_Deck" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bf5f-524a-b35e-5bb4" name="Spells" hidden="false" collective="false" import="true" targetId="bd3e-3948-8ea0-8b20" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1703-e833-b59d-de16" name="Tactics" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e850-387a-f28f-d023" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0d06-3b08-0815-7569" name="New CategoryLink" hidden="false" targetId="CAT_Deck" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ccdd-0487-5b50-725a" name="Tactics" hidden="false" collective="false" import="true" targetId="f731-2270-c19c-d5ea" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="1c86-8729-4dc6-522f" name="Thy Golden Light" hidden="false" collective="false" import="true" targetId="096f-9c1c-5f2e-136b" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="de3a-212c-98df-6f60" name="Terrain" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="18fe-2525-7e32-f838" name="New CategoryLink" hidden="false" targetId="CAT_Homeland" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="44f3-7d59-186f-ac63" name="Terrain" hidden="false" collective="false" import="true" targetId="d393-1eac-7bd5-4fb3" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="5cd0-a48a-dc5d-9c92" name="Allarus Custodes" hidden="false" collective="false" import="true" targetId="9f16-5563-8800-886b" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf8d-fc95-b2df-7478" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="74ff-3bca-0f3d-854e" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e58b-eb2c-a1c4-8f98" name="Blade Champion" hidden="false" collective="false" import="true" targetId="0489-d13a-1216-a4b8" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02fc-aad7-f5ec-ab92" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a3a3-6a99-c3b2-b0b7" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="181c-697b-2980-c8a7" name="Contemptor-Achillus Dreadnought" hidden="false" collective="false" import="true" targetId="35fe-2eba-849a-51b2" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cae-2747-b975-5d13" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9a1b-2e5d-70ff-04ef" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="aa2b-4f1b-58bc-6a8c" name="Custodian Guards" hidden="false" collective="false" import="true" targetId="264d-31b4-1abd-0001" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="549b-c47d-36b0-d5a9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3386-82ff-7ad6-4f74" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9e5b-759f-dc18-abcc" name="Custodian Standard Bearer" hidden="false" collective="false" import="true" targetId="bfa2-540d-ce54-1ecd" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c3d-e9ab-073f-2735" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="34cf-77e4-914a-0314" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1635-30b8-cc82-7876" name="Custodian Venatari" hidden="false" collective="false" import="true" targetId="823d-3777-34dc-ce1b" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6bd-2fc9-51c2-125e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="874f-1a65-ffe3-d6a2" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d28d-57f9-d652-5de6" name="Custodian Wardens" hidden="false" collective="false" import="true" targetId="26c2-fb29-a2b1-6f6e" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1332-07c4-f296-5713" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="bed5-34e1-52b8-9ce1" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8722-c7d7-1d45-871a" name="Inquisitor" hidden="false" collective="false" import="true" targetId="177a-3910-ef06-57a6" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3018-3725-9456-b18e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2ee8-b40e-fd2d-f18a" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4e7e-18d5-ba4e-aabc" name="Silent Sister Vigilators" hidden="false" collective="false" import="true" targetId="f2f2-4822-ecd3-9b11" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bfb-eab5-4b94-0f48" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4e2f-3782-b9a4-f71c" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5016-a187-4a1b-744a" name="Silent Sister Witchseekers" hidden="false" collective="false" import="true" targetId="55eb-8baf-5bcf-c9d4" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2092-d872-048a-b956" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e56e-5ab6-fd5d-549c" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1536-e897-ff11-eab5" name="Trajann Valoris" hidden="false" collective="false" import="true" targetId="37f0-bf50-a51e-44a0" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eea5-06c4-8b70-174c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="082a-4f83-c925-e1ff" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="012a-b2ed-b666-671e" name="Vertus Praetors" hidden="false" collective="false" import="true" targetId="1175-9834-d90a-9af0" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ce4-7a34-2802-995b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4baf-c486-dc01-39bd" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="096f-9c1c-5f2e-136b" name="Thy Golden Light" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfbe-e952-a0f7-81e9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7d34-a682-675e-e50c" name="Thy Golden Light" hidden="false" typeId="PROFILE_Card" typeName="Card">
+          <characteristics>
+            <characteristic name="Type" typeId="a42b-0732-1c22-6c18">Tactics</characteristic>
+            <characteristic name="S•A•R" typeId="0cbc-107b-b97b-2de1">Skill</characteristic>
+            <characteristic name="POW" typeId="34cf-cae0-1702-f4b0">2</characteristic>
+            <characteristic name="RNG" typeId="462e-45df-588e-2680">-</characteristic>
+            <characteristic name="Target" typeId="145d-b2f8-8ba7-04a1">Enemy Reaction</characteristic>
+            <characteristic name="Rules" typeId="0483-be00-cb50-3e84">Cancel the Enemy Reaction.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="cebc-8aaf-a97e-a78f" name="Tactics" hidden="false" targetId="CAT_Tactics" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="5.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f16-5563-8800-886b" name="Allarus Custodes" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cecd-e68b-ccda-4774" name="Salvo" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Skill</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">1</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">This Unit may use this Skill during a Charge Action or during a Fight Back Reaction.
+Each model from this Unit makes one Ranged Attack of RNG: 8&quot; and STR: 2 against its Target and before any movements.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ce88-2510-b99a-26f7" name="Axes of Vengeance" hidden="false" typeId="PROFILE_UnitRules" typeName="Unit Special Rules">
+          <characteristics>
+            <characteristic name="Rules" typeId="cef0-f08a-37af-c98e">This Unit gains ATT: +1 until EOT if one or more Friendly models were Destroyed during this current Turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="712c-560b-9fd1-baa7" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+        <categoryLink id="0752-d4fc-e08b-4c01" name="Human" hidden="false" targetId="f889-8e32-9332-a951" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3e80-8e64-fc52-6355" name="Allarus Custode" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffbc-cb3f-0486-73d5" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15de-33b3-ece9-a089" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="726e-a050-300a-698a" name="Allarus Custode" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">3</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">5</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">2</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="77.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0489-d13a-1216-a4b8" name="Blade Champion" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7615-340e-64c5-c261" name="Champion" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">6&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">4</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">8</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">5</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">3</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9c6c-faac-c686-61b7" name="Duellist" hidden="false" targetId="a265-5659-1edd-64f6" type="profile"/>
+        <infoLink id="37f6-7123-383d-1883" name="Prize Fighter" hidden="false" targetId="bfa0-bca9-af89-9731" type="profile"/>
+        <infoLink id="0c85-dea8-eed5-e5c3" name="Dodge" hidden="false" targetId="39e5-7481-593a-9c56" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9bbc-14d0-c946-5e05" name="Hero" hidden="false" targetId="CAT_Hero" primary="false"/>
+        <categoryLink id="e2a8-6afc-9ece-a87e" name="Human" hidden="false" targetId="f889-8e32-9332-a951" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="37.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="35fe-2eba-849a-51b2" name="Contemptor-Achillus Dreadnought" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="69d9-3ab5-1b0b-5ed1" name="Contemptor-Achillus Dreadnought" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">4</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">4</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">5</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">7</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">L</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="50e8-0b7f-e60c-8b88" name="Dreadnought Hand Cannon" hidden="false" typeId="PROFILE_RangedAttack" typeName="Unit Ranged Attack">
+          <characteristics>
+            <characteristic name="RNG" typeId="2667-19c2-40f2-700a">12&quot;</characteristic>
+            <characteristic name="ATT" typeId="6200-41ee-87ec-3c0e">4</characteristic>
+            <characteristic name="STR" typeId="c3cc-66f6-23ae-78f6">2</characteristic>
+            <characteristic name="Type" typeId="ea52-cf35-191e-5b9b"/>
+            <characteristic name="Rules" typeId="08f6-efee-f80b-457d"/>
+          </characteristics>
+        </profile>
+        <profile id="7d85-6c77-ddf5-a2eb" name="Salvo" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Skill</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">1</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">This Unit may use this Skill during a Charge Action or during a Fight Back Reaction.
+Each model from this Unit makes two Ranged Attacks of RNG: 8&quot; and STR: 2 against its Target and before any movements.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9b37-ef56-ac93-a96c" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8895-521c-83bf-d326" name="Monster" hidden="false" targetId="CAT_Monster" primary="false"/>
+        <categoryLink id="58f2-eb63-6746-4ed8" name="Dreadnought" hidden="false" targetId="ab82-bab1-4f6f-b9e1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="35.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="264d-31b4-1abd-0001" name="Custodian Guards" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="4e0e-1b6f-6e20-d9c6" name="Shields Up!" hidden="false" targetId="0b1d-6e82-78a8-63b4" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="db9d-1453-e5d1-948f" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+        <categoryLink id="257d-3cec-c250-5179" name="Human" hidden="false" targetId="f889-8e32-9332-a951" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1b1b-96cc-fa47-4dbd" name="Custodian Guard" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bff9-4295-2a53-e400" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4352-09ca-1341-3c1e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d51d-bddd-1e3e-d566" name="Custodian Guard" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">5</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">2</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="57.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfa2-540d-ce54-1ecd" name="Custodian Standard Bearer" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f11d-b4b5-371d-0b00" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1beb-e334-6b6b-bb09" name="Standard Bearer" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">5</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">3</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4576-78be-7bcf-4c11" name="The Emperor&apos;s Banner" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Skill</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">2</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Can only be used once per Turn.
+Its Master chooses Action or Reaction.
+
+Action:
+Actions for Friendly Units within 6&quot; of this Unit, including its own, cost 1 less POW.
+Units with no POW cannot Activate even under this Skill&apos;s range.
+
+Reaction:
+Friendly Units within 6&quot; of this Unit do not count as Activated after they executed a Reaction and can still Activate and execute Actions or even another Reaction during this Turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bb27-e162-5ddf-5361" name="Inspiring" hidden="false" targetId="6b38-3fe7-a208-9ad2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ecb9-1132-98d4-6720" name="Hero" hidden="false" targetId="CAT_Hero" primary="false"/>
+        <categoryLink id="d568-d791-5e26-7080" name="Human" hidden="false" targetId="f889-8e32-9332-a951" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="23.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="823d-3777-34dc-ce1b" name="Custodian Venatari" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2e75-c8cd-dcb9-8271" name="To The Sky!" hidden="false" typeId="4253-ec41-6fa5-ba7d" typeName="Terrain S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="af4a-a4ab-2215-5220">Reaction</characteristic>
+            <characteristic name="POW" typeId="95ae-195e-b049-90f7">3</characteristic>
+            <characteristic name="Rules" typeId="ff8d-2e51-2309-c0a4">Remove this Unit from the Battlefield and set it aside as reserved. It ceases the control of any Objective and drops any Flag it was controlling.
+If this Unit is reserved at the End of the Battle, it counts as being Destroyed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5b90-7d9f-3893-bb15" name="Hunting Eagles" hidden="false" typeId="PROFILE_UnitRules" typeName="Unit Special Rules">
+          <characteristics>
+            <characteristic name="Rules" typeId="cef0-f08a-37af-c98e">During the Master Phase and if this Unit is set reserved, its Master must Deploy this Unit anywhere on the Battlefield at least 12&quot; away from any Enemy Units.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="88f1-c193-55c4-da88" name="Gauntlet Pistol" hidden="false" typeId="PROFILE_RangedAttack" typeName="Unit Ranged Attack">
+          <characteristics>
+            <characteristic name="RNG" typeId="2667-19c2-40f2-700a">8&quot;</characteristic>
+            <characteristic name="ATT" typeId="6200-41ee-87ec-3c0e">1</characteristic>
+            <characteristic name="STR" typeId="c3cc-66f6-23ae-78f6">2</characteristic>
+            <characteristic name="Type" typeId="ea52-cf35-191e-5b9b"/>
+            <characteristic name="Rules" typeId="08f6-efee-f80b-457d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5035-ca7d-5262-6d86" name="Flying" hidden="false" targetId="3fb8-4a2b-4419-2b4e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2693-71f9-6533-916c" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+        <categoryLink id="a49e-b41d-8758-58ba" name="Human" hidden="false" targetId="f889-8e32-9332-a951" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9222-4126-52ff-9ba9" name="Venatari" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2be0-2637-b03b-50ee" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85c6-3d34-6875-7743" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="66f1-b806-98aa-e8a8" name="Venatari" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">6&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">4</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">2</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="53.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="26c2-fb29-a2b1-6f6e" name="Custodian Wardens" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="77f1-bbe0-7be0-1721" name="Salvo" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Skill</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">1</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">This Unit may use this Skill during a Charge Action or during a Fight Back Reaction.
+Each model from this Unit makes one Ranged Attack of RNG: 8&quot; and STR: 2 against its Target and before any movements.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c4fa-304a-fcbb-4a22" name="Halberd" hidden="false" targetId="6ba2-4053-bec3-e142" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9d1c-1c26-d19d-1801" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+        <categoryLink id="634b-6ecd-b3ba-3127" name="Human" hidden="false" targetId="f889-8e32-9332-a951" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1df2-4c1d-e8ba-bf06" name="Custodian Warden" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="452b-482d-cd6c-22f7" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7311-4c98-88f0-7a30" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6376-ca45-66a5-92c6" name="Custodian Warden" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">5</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">2</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="177a-3910-ef06-57a6" name="Inquisitor" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1ae4-6ea4-6ca1-0c3a" name="Inquisitor" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">6&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">3</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">S</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3f72-33f0-503c-3baa" name="Dispel Scroll" hidden="false" targetId="4d9d-dd5e-10bc-e846" type="profile"/>
+        <infoLink id="2f8a-eddb-a6ad-e46c" name="Immune to Magic" hidden="false" targetId="2503-4a47-458c-c766" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ac0d-aa3a-2788-eaea" name="Hero" hidden="false" targetId="CAT_Hero" primary="false"/>
+        <categoryLink id="aeaf-be97-fdbc-9681" name="Human" hidden="false" targetId="f889-8e32-9332-a951" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="19.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f2f2-4822-ecd3-9b11" name="Silent Sister Vigilators" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="3742-a934-bf19-c17e" name="Ambush" hidden="false" targetId="aee5-5e2b-4bcd-129f" type="profile"/>
+        <infoLink id="89bb-8198-42a7-c27a" name="Sword Swipe" hidden="false" targetId="d6c5-375f-7ebd-b709" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6cf2-6e61-608d-6901" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+        <categoryLink id="7b7a-3502-7365-e06f" name="Human" hidden="false" targetId="f889-8e32-9332-a951" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8c64-236a-24d7-8929" name="Vigilator" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbc7-f4ae-aa22-309b" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d936-6443-5683-756c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d586-d304-26f6-9ad9" name="Vigilator" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">6&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">3</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">8</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">2</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">S</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="90.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="55eb-8baf-5bcf-c9d4" name="Silent Sister Witchseekers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fe53-3a7a-4733-0bc4" name="Torrent of Fire" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Shoot Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">2</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Change this Unit&apos;s Ranged Attack profile to:
+
+RNG: 8 • ATT: 3 • STR: 1 • Fire
+On a Critical Hit the Target gains the Burning condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c390-0493-45f7-2daa" name="Flamethrower" hidden="false" typeId="PROFILE_RangedAttack" typeName="Unit Ranged Attack">
+          <characteristics>
+            <characteristic name="RNG" typeId="2667-19c2-40f2-700a">12&quot;</characteristic>
+            <characteristic name="ATT" typeId="6200-41ee-87ec-3c0e">1</characteristic>
+            <characteristic name="STR" typeId="c3cc-66f6-23ae-78f6">2</characteristic>
+            <characteristic name="Type" typeId="ea52-cf35-191e-5b9b">Fire</characteristic>
+            <characteristic name="Rules" typeId="08f6-efee-f80b-457d">On a Critical Hit the Target gains the Burned condition.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="666a-0b4c-1795-c00a" name="Burned" hidden="false" targetId="299c-ae27-5314-bedb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7b94-8ee1-9986-dde1" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+        <categoryLink id="cb1c-14ab-8973-905b" name="Human" hidden="false" targetId="f889-8e32-9332-a951" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="06ff-8166-e482-2b57" name="Witchseeker" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="003c-3771-69f3-a69c" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a577-612b-7cc3-28f9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2453-2322-cf48-d935" name="Witchseeker" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">2</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">S</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="37f0-bf50-a51e-44a0" name="Trajann Valoris" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9834-b213-ca29-ada5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f9d4-2b81-690e-3202" name="Trajann Valoris" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">6&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">3</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">3</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">8</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">5</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">4</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d9a0-218b-a41f-f8c3" name="On My Command!" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Charge Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">3</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Target one Friendly Unit at RNG: 4&quot; with no POW and that did not Activated this Turn. That Friendly Unit also executes a Charge Action against the same Target of this Unit.
+Both Units count as one Charging Action.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6a57-a620-6aff-a562" name="Unique" hidden="false" targetId="SHARED_PRO_Unique" type="profile"/>
+        <infoLink id="331a-36ec-1ab2-7772" name="Destroyer: 1" hidden="false" targetId="900c-3c49-b634-05ca" type="profile"/>
+        <infoLink id="b3fb-cc36-f082-7cc1" name="Self-Sufficient: 3" hidden="false" targetId="e37e-3ae0-6729-79af" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b58f-a2eb-85fb-aae3" name="Hero" hidden="false" targetId="CAT_Hero" primary="false"/>
+        <categoryLink id="11a4-b1bb-de0d-0804" name="Human" hidden="false" targetId="f889-8e32-9332-a951" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="40.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1175-9834-d90a-9af0" name="Vertus Praetors" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4942-bff9-233f-390b" name="Salvo" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Skill</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">1</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">This Unit may use this Skill during a Charge Action or during a Fight Back Reaction.
+Each model from this Unit makes one Ranged Attack of RNG: 8&quot; and STR: 2 against its Target and before any movements.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3add-e6ca-3b4f-52bf" name="Flying" hidden="false" targetId="3fb8-4a2b-4419-2b4e" type="profile"/>
+        <infoLink id="2ec9-afe5-7bc8-c31e" name="Lance" hidden="false" targetId="b7c3-e71f-ec44-534d" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e036-4bf0-64a7-df2f" name="Cavalry" hidden="false" targetId="CAT_Cavalry" primary="false"/>
+        <categoryLink id="3ec8-3688-cb91-f1a5" name="Human" hidden="false" targetId="f889-8e32-9332-a951" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3eae-8115-4712-072a" name="Praetor" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bb2-a27f-d6ad-50dd" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c099-7274-fc44-0a23" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="78eb-f9ea-011a-4a5f" name="Praetor" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">8&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">2</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">5</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">3</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">L</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="86.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="d393-1eac-7bd5-4fb3" name="Terrain" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="432f-a1b5-ae34-7ede" type="max"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c643-9795-2326-987c" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8474-f8dc-f215-34df" name="Forest" hidden="false" collective="false" import="true" targetId="ef6e-aa5a-df6c-bea1" type="selectionEntry"/>
+        <entryLink id="79ab-11c6-96bd-d6e5" name="Hill" hidden="false" collective="false" import="true" targetId="9222-0ef7-9fa6-de15" type="selectionEntry"/>
+        <entryLink id="5897-761f-022b-058c" name="Lake" hidden="false" collective="false" import="true" targetId="b678-5d26-1705-9ea9" type="selectionEntry"/>
+        <entryLink id="da9f-72d3-dd39-70a6" name="Pond" hidden="false" collective="false" import="true" targetId="a114-99cb-e3db-9564" type="selectionEntry"/>
+        <entryLink id="33fb-b948-0c8f-4552" name="River" hidden="false" collective="false" import="true" targetId="1a23-31c3-df1d-68fc" type="selectionEntry"/>
+        <entryLink id="18ea-d1b2-2433-71aa" name="Building" hidden="false" collective="false" import="true" targetId="5941-1188-4307-7f0e" type="selectionEntry"/>
+        <entryLink id="8f82-ef7c-40ea-787e" name="Ruins" hidden="false" collective="false" import="true" targetId="848f-738c-e923-077b" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

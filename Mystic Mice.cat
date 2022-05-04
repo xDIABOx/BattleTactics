@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ef22-1603-d07f-aeb6" name="Mystic Mice" revision="1" battleScribeVersion="2.03" authorName="xDIABOx" authorUrl="https://battletacticsgame.wordpress.com/" library="false" gameSystemId="GAME_BattleTactics" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Mystic Mice is a race of extremely developed mice and rat beings, gifted with intelligence and craft.</readme>
+  <categoryEntries>
+    <categoryEntry id="eb5f-4f0e-5584-3bf5" name="Rat" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="b86a-211a-4953-c347" name="Archmage [500 CR • 16 POW]" publicationId="PUB_Rulebook" hidden="false">
+      <constraints>
+        <constraint field="COST_CR" scope="force" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="804f-74f1-9615-c57f" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="caea-473d-249b-4302" name="Archmage" hidden="false">
+          <description>
+500 Crowns
+16 POW
+Spell cards casted by this Master cost 1 less POW to be cast.
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1f09-04ce-779d-cecc" name="Homeland" hidden="false" targetId="CAT_Homeland" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef2a-e2e8-1904-8239" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fb3-2f69-eaa0-cae3" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d495-6ced-84b3-bdd8" name="Unit" hidden="false" targetId="CAT_Unit" primary="false"/>
+        <categoryLink id="7bb2-aaaf-9a73-7198" name="Unit Replacement" hidden="false" targetId="CAT_Extras" primary="false"/>
+        <categoryLink id="b3ae-f0f1-b255-025c" name="Master Deck" hidden="false" targetId="CAT_Deck" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="b74e-533a-7b34-7e8c" name="General [500 CR • 20 POW]" publicationId="PUB_Rulebook" hidden="false">
+      <constraints>
+        <constraint field="COST_CR" scope="force" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0fba-53ec-ed80-07e5" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="c35b-b695-91bb-78a9" name="General [500 CR • 20 POW]" hidden="false">
+          <description>
+500 Crowns
+20 POW
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="9e43-c2af-611e-184c" name="Homeland" hidden="false" targetId="CAT_Homeland" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c1c-ccfc-0340-a7b4" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad11-c4dc-c185-d75e" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3eb1-831f-9012-2143" name="Unit" hidden="false" targetId="CAT_Unit" primary="false"/>
+        <categoryLink id="0a93-dafc-8152-d9d2" name="Unit Replacement" hidden="false" targetId="CAT_Extras" primary="false"/>
+        <categoryLink id="ad9f-8295-edf9-eeac" name="Master Deck" hidden="false" targetId="CAT_Deck" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="47d5-007e-7528-5385" name="Noble [550 CR • 16 POW]" publicationId="PUB_Rulebook" hidden="false">
+      <constraints>
+        <constraint field="COST_CR" scope="force" value="550.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8432-fe1b-b018-2db8" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="2671-e4d2-57dc-ca0d" name="Noble [550 CR • 16 POW]" hidden="false">
+          <description>
+550 Crowns
+16 POW
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="17ca-24c2-8b6c-b637" name="Homeland" hidden="false" targetId="CAT_Homeland" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2828-3104-95c0-a4bc" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd58-45b5-d048-3ebd" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="810f-b966-2312-a7a0" name="Unit" hidden="false" targetId="CAT_Unit" primary="false"/>
+        <categoryLink id="489d-9c31-e25b-3320" name="Unit Replacement" hidden="false" targetId="CAT_Extras" primary="false"/>
+        <categoryLink id="2068-0d44-e6b3-e312" name="Master Deck" hidden="false" targetId="CAT_Deck" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="c1ee-31cd-5226-6f85" name="Warlord [500 CR • 24 POW]" publicationId="PUB_Rulebook" hidden="false">
+      <constraints>
+        <constraint field="COST_CR" scope="force" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1fb2-70b0-6fc0-65e8" type="max"/>
+        <constraint field="COST_POW" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee82-434a-fbf5-db14" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="aa74-eed1-41a5-0c5b" name="Warlord [500 CR • 24 POW]" hidden="false">
+          <description>
+500 Crowns
+24 POW
+This Master cannot use Spell cards.
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="fea5-1a6b-39b8-6d9e" name="Homeland" hidden="false" targetId="CAT_Homeland" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cd1-dd57-ffc2-1a31" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="144c-5d9a-c65a-83c9" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="29ef-dbf3-26c1-eac8" name="Unit" hidden="false" targetId="CAT_Unit" primary="false"/>
+        <categoryLink id="5bd2-6c5f-6a5f-8597" name="Unit Replacement" hidden="false" targetId="CAT_Extras" primary="false"/>
+        <categoryLink id="16b3-14f8-cf32-e5f6" name="Master Deck" hidden="false" targetId="CAT_Deck" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="0085-999c-c57c-78eb" name="Rat Pack" hidden="false" collective="false" import="true" targetId="66d4-3f22-e0dc-1868" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8a21-f77b-3479-3d15" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="66d4-3f22-e0dc-1868" name="Rat Pack" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="7ccf-eadc-1c02-fdcd" name="Weapon Team" hidden="false" targetId="4ed7-19ca-8445-733e" type="profile"/>
+        <infoLink id="015b-4170-29d2-1f42" name="Weapon Team: Shoot" hidden="false" targetId="65fe-0d61-4cf1-1eb8" type="profile"/>
+        <infoLink id="5469-7e30-dbf7-e438" name="Weapon Team" hidden="false" targetId="4c92-c2b2-9c0e-25dc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a06a-9e8b-83ee-4e51" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+        <categoryLink id="1eec-c4ec-d590-7513" name="Rat" hidden="false" targetId="eb5f-4f0e-5584-3bf5" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7f69-ca6d-3772-51a1" name="Rat Warrior" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d73-e270-a3b9-f989" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3135-d9f9-d64a-4cd8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1665-006d-da35-f84a" name="Rat Warrior" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">1</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">4</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">1</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">S</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a3d7-72ec-5785-223f" name="Weapon Team" hidden="false" collective="false" import="true" targetId="632f-e64f-e7b9-d9b7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="54.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="632f-e64f-e7b9-d9b7" name="Weapon Team" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94e2-5098-f2df-d543" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8ee3-e1ee-51e2-3d39" name="Flamethrower" hidden="false" collective="false" import="true" type="model">
+          <costs>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c3b1-212b-56ea-ff50" name="Ratling Gun" hidden="false" collective="false" import="true" type="model">
+          <costs>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ed41-2fb8-a5c3-cf05" name="Ball of Death" hidden="false" collective="false" import="true" type="model">
+          <costs>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1a42-0427-9193-6657" name="Poison Mortar" hidden="false" collective="false" import="true" type="model">
+          <costs>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="86b8-50cf-a683-a66c" name="Lightning Lance" hidden="false" collective="false" import="true" type="model">
+          <costs>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

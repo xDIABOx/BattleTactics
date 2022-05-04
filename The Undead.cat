@@ -1,0 +1,1818 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="2e4b-7204-1249-2a46" name="The Undead" revision="1" battleScribeVersion="2.03" authorName="xDIABOx" authorUrl="https://battletacticsgame.wordpress.com/" library="false" gameSystemId="GAME_BattleTactics" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Hordes of everliving Skelletons marching towards their foes, eager to clinge their swords in their enemies in order to fuel their graves with more corpses.</readme>
+  <categoryEntries>
+    <categoryEntry id="52b1-7e80-760a-ba86" name="Bat" hidden="false"/>
+    <categoryEntry id="4609-ee09-1487-3509" name="Dragon" hidden="false"/>
+    <categoryEntry id="f702-3897-410b-9123" name="Ghoul" hidden="false"/>
+    <categoryEntry id="0079-328e-ee4f-ee33" name="Giant" hidden="false"/>
+    <categoryEntry id="23b9-42e6-ab65-e20b" name="Human" hidden="false"/>
+    <categoryEntry id="213a-89fe-5c7d-0879" name="Lich" hidden="false"/>
+    <categoryEntry id="0ab6-6933-d078-2299" name="Skeleton" hidden="false"/>
+    <categoryEntry id="9646-fcbc-375f-42fc" name="Spider" hidden="false"/>
+    <categoryEntry id="98f5-b7ac-6610-d389" name="Spirit" hidden="false"/>
+    <categoryEntry id="4b4e-d778-7e02-c7b0" name="Undead" hidden="false"/>
+    <categoryEntry id="72ad-9f27-4e21-211e" name="Werewolf" hidden="false"/>
+    <categoryEntry id="d271-acff-b8b7-6b1e" name="Wolf" hidden="false"/>
+    <categoryEntry id="271a-9db0-d35c-d929" name="Zombie" hidden="false"/>
+    <categoryEntry id="7f86-8601-93e4-6840" name="Vampire" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="6e3f-74c8-5bda-6fe9" name="Master Necromancer [500 CR • 18 POW]" publicationId="PUB_Rulebook" hidden="false">
+      <constraints>
+        <constraint field="COST_CR" scope="force" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7b8e-571b-10dc-1615" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="2c9f-9cf2-f87a-5530" name="Master Necromancer [500 CR • 18 POW]" hidden="false">
+          <description>
+500 Crowns
+18 POW
+Signature Spell: Summon Zombies
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="bf46-6d58-4560-bd7c" name="Homeland" hidden="false" targetId="CAT_Homeland" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5006-1b6c-2d5f-79ea" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6578-5e8c-21f8-452d" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="ac12-1016-669a-83fa" name="Unit" hidden="false" targetId="CAT_Unit" primary="false"/>
+        <categoryLink id="cad0-44ed-e17b-9260" name="Unit Replacement" hidden="false" targetId="CAT_Extras" primary="false"/>
+        <categoryLink id="1391-8e83-c467-cdfc" name="Master Deck" hidden="false" targetId="CAT_Deck" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="09a1-f041-132a-eb20" name="Vampire Aristocrat [500 CR • 18 POW]" publicationId="PUB_Rulebook" hidden="false">
+      <constraints>
+        <constraint field="COST_CR" scope="force" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a86a-fdaf-0b15-340b" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="cb83-617b-835d-f775" name="Vampire Aristocrat [500 CR • 18 POW]" hidden="false">
+          <description>
+500 Crowns
+18 POW
+Signature Spell: Biting Necks
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="9b1b-1ffe-de35-730b" name="Homeland" hidden="false" targetId="CAT_Homeland" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e384-8722-77d5-3f4c" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fa7-541e-680f-c0f1" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="fb86-f345-3645-80a1" name="Unit" hidden="false" targetId="CAT_Unit" primary="false"/>
+        <categoryLink id="f12e-51b0-f394-e0a7" name="Unit Replacement" hidden="false" targetId="CAT_Extras" primary="false"/>
+        <categoryLink id="a67f-d9fd-44eb-59c5" name="Master Deck" hidden="false" targetId="CAT_Deck" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="3884-5ed0-cc4d-d891" name="Undead King [500 CR • 18 POW]" publicationId="PUB_Rulebook" hidden="false">
+      <constraints>
+        <constraint field="COST_CR" scope="force" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d8c4-c5c0-365a-abcc" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="8d90-bdf3-ecf3-9ee1" name="Undead King [500 CR • 18 POW]" hidden="false">
+          <description>
+500 Crowns
+18 POW
+Signature Spell: Bone Shaker
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1e84-1507-1acc-c97b" name="Homeland" hidden="false" targetId="CAT_Homeland" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7639-dda7-a2be-831f" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e81d-8305-e295-ff45" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f92b-a626-5091-d8af" name="Unit" hidden="false" targetId="CAT_Unit" primary="false"/>
+        <categoryLink id="eb04-b37c-1689-4126" name="Unit Replacement" hidden="false" targetId="CAT_Extras" primary="false"/>
+        <categoryLink id="f5c3-1ad6-ea8d-6a29" name="Master Deck" hidden="false" targetId="CAT_Deck" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="3454-76ea-903f-19c8" name="Spells" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="09a1-f041-132a-eb20" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bb3-cf30-052b-6887" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="25eb-8dd0-9543-ed75" name="Master Deck" hidden="false" targetId="CAT_Deck" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="58a8-9870-133a-4324" name="Spells" hidden="false" collective="false" import="true" targetId="bd3e-3948-8ea0-8b20" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="7476-e323-c521-b621" name="Summon Zombies" hidden="false" collective="false" import="true" targetId="2b89-67e0-e4b8-236f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3884-8d3d-823b-426b" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5a9-3a96-d33b-95b4" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7f50-a89b-b395-0bf5" name="Drain Life" hidden="false" collective="false" import="true" targetId="92c6-89fe-00e5-c7ec" type="selectionEntry"/>
+            <entryLink id="2bac-de24-4198-d79f" name="Raise Dead" hidden="false" collective="false" import="true" targetId="6c11-b327-265e-9caa" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="96a9-bc8a-4f9b-1bcf" name="Tactics" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a283-78d7-f5c6-cd73" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8162-c9bc-de60-4e6e" name="New CategoryLink" hidden="false" targetId="CAT_Deck" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8bb6-2ffd-ec52-19b8" name="Tactics" hidden="false" collective="false" import="true" targetId="f731-2270-c19c-d5ea" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="c24a-757c-4b95-a38a" name="Dance Macabre" hidden="false" collective="false" import="true" targetId="f938-3b8e-9bd5-2689" type="selectionEntry"/>
+            <entryLink id="fb19-9e38-b308-d0a9" name="Fog of Bats" hidden="false" collective="false" import="true" targetId="24cb-824d-3957-f2c5" type="selectionEntry"/>
+            <entryLink id="9fdd-966d-b7d3-5263" name="Bat Form" hidden="false" collective="false" import="true" targetId="7830-98f9-e463-3900" type="selectionEntry"/>
+            <entryLink id="01aa-b711-1849-1ac8" name="Wolf Form" hidden="false" collective="false" import="true" targetId="3a9b-00e3-4475-e95d" type="selectionEntry"/>
+            <entryLink id="5e9e-6645-4ac6-fdfa" name="Ghost Form" hidden="false" collective="false" import="true" targetId="2cf5-46b8-6674-0c4d" type="selectionEntry"/>
+            <entryLink id="a98d-c356-6d42-3acc" name="Blood Fury" hidden="false" collective="false" import="true" targetId="f69c-630c-f27c-71cc" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="40b2-b032-0a57-b1bf" name="Terrain" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="8c4a-b541-a385-723b" name="New CategoryLink" hidden="false" targetId="CAT_Homeland" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="adf2-8c38-5972-5817" name="Terrain" hidden="false" collective="false" import="true" targetId="32da-73ff-aa66-b020" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c93a-023d-45e4-0a18" name="Spells" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e3f-74c8-5bda-6fe9" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cec-608b-9f3c-480e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="095c-8948-3428-77fe" name="Master Deck" hidden="false" targetId="CAT_Deck" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d6eb-1367-778e-2a01" name="Spells" hidden="false" collective="false" import="true" targetId="bd3e-3948-8ea0-8b20" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="5441-0e7e-3731-6168" name="Biting Necks" hidden="false" collective="false" import="true" targetId="2691-b31f-8b34-d4b8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e77b-7a23-824f-9032" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfcb-7265-ae41-a88f" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c5c7-f6ee-d685-a9f1" name="Raise Dead" hidden="false" collective="false" import="true" targetId="6c11-b327-265e-9caa" type="selectionEntry"/>
+            <entryLink id="991b-312d-2ef1-f679" name="Drain Life" hidden="false" collective="false" import="true" targetId="92c6-89fe-00e5-c7ec" type="selectionEntry"/>
+            <entryLink id="1cd5-6f4a-b756-6016" name="Vampiric Willpower" hidden="false" collective="false" import="true" targetId="bf5a-65c3-c1ae-70c7" type="selectionEntry"/>
+            <entryLink id="cb1d-57bc-d314-643a" name="Vampiric Seduction" hidden="false" collective="false" import="true" targetId="5f70-b74a-8553-77b6" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b23-d01b-d255-bec1" name="Spells" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="09a1-f041-132a-eb20" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e3f-74c8-5bda-6fe9" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cd2-a8ab-dd47-b7c3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f8c2-0cd6-cfdd-d81c" name="Master Deck" hidden="false" targetId="CAT_Deck" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c1ef-b9ef-f219-8d48" name="Spells" hidden="false" collective="false" import="true" targetId="bd3e-3948-8ea0-8b20" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="f376-9234-06fd-d2fe" name="Bone Shaker" hidden="false" collective="false" import="true" targetId="7590-31cd-ac50-9caf" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90fc-a0ae-9e79-1ea8" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf28-00d5-f9ef-beea" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="94a1-8cc6-2ffb-9ff9" name="Drain Life" hidden="false" collective="false" import="true" targetId="92c6-89fe-00e5-c7ec" type="selectionEntry"/>
+            <entryLink id="808e-f462-e1bc-932b" name="Raise Dead" hidden="false" collective="false" import="true" targetId="6c11-b327-265e-9caa" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="7ebf-2ab3-77ee-4258" name="Bat Swarm" hidden="false" collective="false" import="true" targetId="e54a-f7e4-4c89-d373" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d88c-6144-9ec1-3612" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="bcfe-ded1-75a6-c333" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="07c8-a96d-2484-d024" name="Vampire" hidden="false" collective="false" import="true" targetId="91ee-17e4-1c76-5954" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a28-61a0-1808-b8d8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="19cc-55c6-b36e-872b" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fa30-3ed6-9d89-49e3" name="Peasants" hidden="false" collective="false" import="true" targetId="e291-870c-3ddb-9f7a" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6500-183b-a436-04d5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b55d-601a-748d-4e58" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cda3-8327-2098-9931" name="Wolf Pack" hidden="false" collective="false" import="true" targetId="de14-29e8-fe96-9453" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bad-546c-4144-ae0e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2ba9-8c78-5583-dd06" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="22be-2d55-1b46-c7c8" name="Lich Priest" hidden="false" collective="false" import="true" targetId="ee4e-9c65-1362-d841" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ef-4ae0-7251-37d2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a7da-9512-e451-a21b" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a666-c45d-e4eb-e4ea" name="Zombies" hidden="false" collective="false" import="true" targetId="0082-a9fb-88b2-bcdd" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b16-c569-eebe-3f60" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e783-f0f2-7725-9214" name="Unit" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3808-f91a-1960-4f92" name="Wraiths" hidden="false" collective="false" import="true" targetId="9748-474c-cb59-eff0" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8967-08bf-e22d-225a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="17b2-6ada-8fe0-0ab3" name="Unit" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9186-3494-1aa3-929d" name="Werewolf" hidden="false" collective="false" import="true" targetId="7e43-0657-7be0-5332" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfce-ae93-bbfb-328a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2ed4-d378-d529-94de" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="052f-5c69-9be1-40c2" name="Tomb Guard" hidden="false" collective="false" import="true" targetId="319e-e091-47a7-a551" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b39a-88ee-4a57-18fa" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3f91-bb17-00ab-3630" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4ae9-7f0b-6ede-3ff5" name="Big Spiders" hidden="false" collective="false" import="true" targetId="8265-28bc-a1aa-cc8a" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ca6-560e-8a1c-8f0c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b1fa-c6c5-7b81-068a" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bf98-450f-facb-24d4" name="Skeleton Archers" hidden="false" collective="false" import="true" targetId="662d-bdbd-d777-cb53" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5baf-2d29-5bd4-e953" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f758-81e5-f5b9-89c7" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ca36-63a1-0766-b142" name="Skeleton Riders" hidden="false" collective="false" import="true" targetId="9ae3-f1e3-114c-2074" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41ab-ca4d-6c7f-e086" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3b8f-80d7-7dcd-ff7b" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="84ee-8134-ee67-5ccd" name="Skeleton Spears" hidden="false" collective="false" import="true" targetId="8ce3-7b77-36e2-eef4" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5203-e5a4-a900-057c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4834-c475-ac1b-b7a1" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="84c3-b8d0-4403-cc98" name="Skeleton Warriors" hidden="false" collective="false" import="true" targetId="4ad5-4a3a-987d-7ab2" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4814-6b7c-7137-2bbb" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c681-a14f-396c-740c" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1435-81a5-d5e8-5091" name="Giant Bats" hidden="false" collective="false" import="true" targetId="acfa-b9cd-e58f-ec4c" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca56-18a8-379d-ceb2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="07bc-7d51-431e-d1eb" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9b66-3efa-14bf-c21f" name="Ghouls" hidden="false" collective="false" import="true" targetId="1872-b09c-7f13-aa73" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3e3-a73e-ed4a-c049" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0f10-27b3-28db-d66e" name="New CategoryLink" hidden="false" targetId="CAT_Unit" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="e54a-f7e4-4c89-d373" name="Bat Swarm" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="75e5-681a-97bd-89d2" name="Swarm" hidden="false" targetId="623a-8354-ee48-c9f4" type="profile"/>
+        <infoLink id="0912-4a6d-a76b-93f1" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+        <infoLink id="11b8-36da-9db5-0f57" name="Flying" hidden="false" targetId="3fb8-4a2b-4419-2b4e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1ce3-3b9d-8fc8-8534" name="Swarm" hidden="false" targetId="e123-112f-947a-0adf" primary="false"/>
+        <categoryLink id="7160-a90a-5a0b-b4ed" name="Bat" hidden="false" targetId="52b1-7e80-760a-ba86" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="61b0-d5a6-25da-7af2" name="Bats" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48af-6c48-44c9-a5bc" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa89-4e55-f453-ead7" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="ba00-d747-2e71-3100" name="Bats" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">8&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">3</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="48.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2691-b31f-8b34-d4b8" name="Biting Necks" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4ee7-7ea0-e7d3-7cd7" name="Biting Necks" hidden="false" typeId="PROFILE_Card" typeName="Card">
+          <characteristics>
+            <characteristic name="Type" typeId="a42b-0732-1c22-6c18">Spell</characteristic>
+            <characteristic name="S•A•R" typeId="0cbc-107b-b97b-2de1">Action</characteristic>
+            <characteristic name="POW" typeId="34cf-cae0-1702-f4b0">2</characteristic>
+            <characteristic name="RNG" typeId="462e-45df-588e-2680">-</characteristic>
+            <characteristic name="Target" typeId="145d-b2f8-8ba7-04a1">Enemy Master</characteristic>
+            <characteristic name="Rules" typeId="0483-be00-cb50-3e84">Target one Enemy Master. Roll 2D3. Target Master loses that amount of POW and you gain that amount of POW.
+You cannot gain more POW than the POW lost by the Target.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fb61-bf51-0241-0d74" name="Signature Spell" hidden="false" targetId="d3f4-17c3-cfa7-1e3f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="78f0-6e83-cca6-cfdd" name="Spell" hidden="false" targetId="CAT_Spell" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fe3f-03ba-506c-bc7f" name="Bone Dragon" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6e3f-74c8-5bda-6fe9" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="09a1-f041-132a-eb20" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="307c-7421-212d-eb38" name="Bone Dragon" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">6&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">6</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">4</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">8</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">H</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7c46-3d4b-c1a3-bb43" name="Bone Supply" hidden="false" targetId="356f-d8dc-d744-4c74" type="profile"/>
+        <infoLink id="e99e-27bd-447d-30b7" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+        <infoLink id="3aca-ac73-1664-b334" name="Flying" hidden="false" targetId="3fb8-4a2b-4419-2b4e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="374a-f29a-7367-b51c" name="Monster" hidden="false" targetId="CAT_Monster" primary="false"/>
+        <categoryLink id="c528-22e2-da70-bade" name="Dragon" hidden="false" targetId="4609-ee09-1487-3509" primary="false"/>
+        <categoryLink id="adfc-828f-29cd-091a" name="Skeleton" hidden="false" targetId="0ab6-6933-d078-2299" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="35.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8845-cb54-8abd-10c0" name="Bone Giant" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6e3f-74c8-5bda-6fe9" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="09a1-f041-132a-eb20" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="3b4f-0a6b-2e39-2cd7" name="Bone Giant" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">4</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">4</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">4</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">7</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">L</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cacd-7db0-e131-3e47" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="902b-e729-3708-10f7" name="Monster" hidden="false" targetId="CAT_Monster" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7590-31cd-ac50-9caf" name="Bone Shaker" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b07e-cedc-e8a3-7897" name="Bone Shaker" hidden="false" typeId="PROFILE_Card" typeName="Card">
+          <characteristics>
+            <characteristic name="Type" typeId="a42b-0732-1c22-6c18">Spell</characteristic>
+            <characteristic name="S•A•R" typeId="0cbc-107b-b97b-2de1">Action</characteristic>
+            <characteristic name="POW" typeId="34cf-cae0-1702-f4b0">2</characteristic>
+            <characteristic name="RNG" typeId="462e-45df-588e-2680">8&quot;</characteristic>
+            <characteristic name="Target" typeId="145d-b2f8-8ba7-04a1">Friendly Skeleton Unit</characteristic>
+            <characteristic name="Rules" typeId="0483-be00-cb50-3e84">Until EOT, for each Enemy model Destroyed by the this Unit add one Skeleton model to this Unit, Deploying it in coherency with the rest of the Unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="95cf-3c79-1203-3ff2" name="Signature Spell" hidden="false" targetId="d3f4-17c3-cfa7-1e3f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e649-1869-2060-a3c4" name="Spell" hidden="false" targetId="CAT_Spell" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f938-3b8e-9bd5-2689" name="Dance Macabre" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d6d-123e-eaf3-5673" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8f8d-9dc3-6360-acb7" name="Dance Macabre" hidden="false" typeId="PROFILE_Card" typeName="Card">
+          <characteristics>
+            <characteristic name="Type" typeId="a42b-0732-1c22-6c18">Tactics</characteristic>
+            <characteristic name="S•A•R" typeId="0cbc-107b-b97b-2de1">Action</characteristic>
+            <characteristic name="POW" typeId="34cf-cae0-1702-f4b0">2</characteristic>
+            <characteristic name="RNG" typeId="462e-45df-588e-2680">-</characteristic>
+            <characteristic name="Target" typeId="145d-b2f8-8ba7-04a1">Friendly Undead Unit</characteristic>
+            <characteristic name="Rules" typeId="0483-be00-cb50-3e84">Target a Friendly Undead Unit and choose one Action: Move; Shoot; Fight.
+That Unit executes this Action even if it already Activated and even if it already did this same Action during this Turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c47a-3301-1a1c-64a9" name="New CategoryLink" hidden="false" targetId="CAT_Tactics" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="5.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f259-64b8-161a-b245" name="Graveyard" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de1-3b4f-c7ee-17e0" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="67f3-ce58-faab-469f" name="Graveyard" hidden="false" typeId="PROFILE_Terrain" typeName="Terrain">
+          <characteristics>
+            <characteristic name="LOS" typeId="8308-4849-7090-7705">• No penalties</characteristic>
+            <characteristic name="Movement" typeId="d72f-bee9-0215-15e0">• Units cannot declare Charge Actions through this Terrain
+• Units within can only Move once per Turn</characteristic>
+            <characteristic name="Rules" typeId="7187-14ef-1432-4b8d">• For each Enemy model within 4&quot; of this Terrain that is Destroyed, this Terrain gains 1 POW
+• Action: Empty The Graves</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3e26-d3d6-b323-4fd7" name="Empty the Graves" hidden="false" typeId="4253-ec41-6fa5-ba7d" typeName="Terrain S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="af4a-a4ab-2215-5220">Action</characteristic>
+            <characteristic name="POW" typeId="95ae-195e-b049-90f7">2</characteristic>
+            <characteristic name="Rules" typeId="ff8d-2e51-2309-c0a4">Target a Friendly Skeleton or Zombie Unit within 4&quot; of this Terrain and spend all the remaining POW from this Terrain. For each POW spent this way, add one model to that Unit, Deploying it in coherency with the rest of the Unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0668-3047-69a1-c95c" name="Graveyard" hidden="false">
+          <description>
+A Graveyard is a field Terrain piece with no more than 8&quot; by 8&quot; that must be Deployed outside any DZ.
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1106-3f76-321f-95ee" name="Terrain" hidden="false" targetId="CAT_Terrain" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bc3b-8b03-84a8-02a1" name="Haunted Forest" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="890c-565e-00da-abe5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9f40-a880-0301-8957" name="Haunted Forest" hidden="false" typeId="PROFILE_Terrain" typeName="Terrain">
+          <characteristics>
+            <characteristic name="LOS" typeId="8308-4849-7090-7705">• Blocks LOS from one side of this Terrain to the other
+• Blocks LOS for Units totally within this Terrain
+• Models within have their LOS limited to a maximum of 4”</characteristic>
+            <characteristic name="Movement" typeId="d72f-bee9-0215-15e0">• Units cannot declare Charge Actions through this Terrain
+• Units within can only Move once per Turn</characteristic>
+            <characteristic name="Rules" typeId="7187-14ef-1432-4b8d">• Units within gain Cover: 1 against Ranged Attacks
+• Enemy Units within this Terrain lose 1 POW whenever they declare an Action or a Reaction.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="90a8-6933-3474-2fb6" name="Cover" hidden="false" targetId="4c93-80ca-0a56-7eb0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="978e-6355-3fae-575f" name="Terrain" hidden="false" targetId="CAT_Terrain" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c37-c5b8-4935-7985" name="Haunted House" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e890-1d44-daea-6b4b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="599a-a73b-7133-eb88" name="Haunted House Profile" hidden="false" typeId="PROFILE_Building" typeName="Building Profile">
+          <characteristics>
+            <characteristic name="DEF" typeId="7e7a-8eb1-03bb-0b99">5</characteristic>
+            <characteristic name="ARM" typeId="2226-76e2-91af-dd03">4</characteristic>
+            <characteristic name="HP" typeId="bd57-6d7f-a1dc-a269">8</characteristic>
+            <characteristic name="Rules" typeId="bdc7-80d8-4dc6-30ec">• Targetable: this Terrain piece may be designated as a Target for Actions
+If it gets Destroyed, remove this Terrain from the Battlefield
+• Channel: This Terrain&apos;s Master may cast Spells through this Terrain, using this Terrain as the point of origin of the Spell and considering it for RNG and LOS purposes.
+• Spectral</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bdfc-dacb-eb7f-a7cd" name="Building" hidden="false" targetId="562f-ec8c-4db2-05b9" type="profile"/>
+        <infoLink id="8835-fa21-b825-4926" name="Spectral" hidden="false" targetId="0707-d1db-a392-42c0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c92e-3625-2bf2-cd45" name="Terrain" hidden="false" targetId="CAT_Terrain" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b89-67e0-e4b8-236f" name="Summon Zombies" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="74eb-dd5e-c636-b1b0" name="Summon Zombies" hidden="false" typeId="PROFILE_Card" typeName="Card">
+          <characteristics>
+            <characteristic name="Type" typeId="a42b-0732-1c22-6c18">Spell</characteristic>
+            <characteristic name="S•A•R" typeId="0cbc-107b-b97b-2de1">Action</characteristic>
+            <characteristic name="POW" typeId="34cf-cae0-1702-f4b0">*</characteristic>
+            <characteristic name="RNG" typeId="462e-45df-588e-2680">4&quot;</characteristic>
+            <characteristic name="Target" typeId="145d-b2f8-8ba7-04a1">Battlefield</characteristic>
+            <characteristic name="Rules" typeId="0483-be00-cb50-3e84">Deploy a new Unit of * Zombies anywhere in the Battlefield within 4&quot; of the channeling Unit of this Spell.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e741-c2b9-0b2c-e1db" name="Signature Spell" hidden="false" targetId="d3f4-17c3-cfa7-1e3f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9c7a-0f08-0114-61a3" name="Spell" hidden="false" targetId="CAT_Spell" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="92c6-89fe-00e5-c7ec" name="Drain Life" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffec-9f40-92be-9395" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="dd6a-5f07-63d5-5dfd" name="Drain Life" hidden="false" typeId="PROFILE_Card" typeName="Card">
+          <characteristics>
+            <characteristic name="Type" typeId="a42b-0732-1c22-6c18">Spell</characteristic>
+            <characteristic name="S•A•R" typeId="0cbc-107b-b97b-2de1">Action</characteristic>
+            <characteristic name="POW" typeId="34cf-cae0-1702-f4b0">3</characteristic>
+            <characteristic name="RNG" typeId="462e-45df-588e-2680">12&quot;</characteristic>
+            <characteristic name="Target" typeId="145d-b2f8-8ba7-04a1">Enemy Unit</characteristic>
+            <characteristic name="Rules" typeId="0483-be00-cb50-3e84">Target Unit suffers D6 Attacks STR: 2.
+Each model Destroyed by this Spell generates 1 POW to your Master pool.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="06cc-dec8-c80e-4ca8" name="Spell" hidden="false" targetId="CAT_Spell" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="24cb-824d-3957-f2c5" name="Fog of Bats" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="682d-213b-7d1d-352d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0f44-c3f6-24b1-c0a5" name="Fog of Bats" hidden="false" typeId="PROFILE_Card" typeName="Card">
+          <characteristics>
+            <characteristic name="Type" typeId="a42b-0732-1c22-6c18">Tactics</characteristic>
+            <characteristic name="S•A•R" typeId="0cbc-107b-b97b-2de1">Reaction</characteristic>
+            <characteristic name="POW" typeId="34cf-cae0-1702-f4b0">1</characteristic>
+            <characteristic name="RNG" typeId="462e-45df-588e-2680">-</characteristic>
+            <characteristic name="Target" typeId="145d-b2f8-8ba7-04a1">Friendly Unit</characteristic>
+            <characteristic name="Rules" typeId="0483-be00-cb50-3e84">Target Unit gains DEF: +2 until the end of this Reaction.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c581-ee50-fc59-5b62" name="New CategoryLink" hidden="false" targetId="CAT_Tactics" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="5.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1872-b09c-7f13-aa73" name="Ghouls" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="8267-e499-f47b-e093" name="Well Fed" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Skill</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">2</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Use this Skill if this Unit Destroys one Enemy Unit in Combat. This Unit loses the Errant Special Rule until the End of Battle.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4a65-5130-cfc7-76b6" name="Poison" hidden="false" targetId="f930-7f79-4d56-868c" type="profile"/>
+        <infoLink id="d907-cfc7-9a69-afa4" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1813-0db1-f367-503e" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+        <categoryLink id="182a-f329-a900-42ed" name="Ghoul" hidden="false" targetId="f702-3897-410b-9123" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1d88-12be-d129-e61d" name="Ghoul" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="655a-78d4-a4f7-06f3" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="907e-714d-b4b6-c583" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a512-1bb8-d098-859f" name="Ghoul" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">2</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">S</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="69.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="acfa-b9cd-e58f-ec4c" name="Giant Bats" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="e676-6673-c24d-495c" name="Echolocation" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Shoot Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">1</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Target an Enemy Unit at RNG: 8&quot;. Target Unit is considered to be in LOS of any other Friendly Unit until the EOT.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2032-2547-2f45-630f" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+        <infoLink id="2f06-e6f0-3e8c-8686" name="Flying" hidden="false" targetId="3fb8-4a2b-4419-2b4e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="530d-ee67-749c-fa74" name="Pack" hidden="false" targetId="7732-d7d6-b8eb-1b26" primary="false"/>
+        <categoryLink id="fa4e-48a3-080e-8059" name="Bat" hidden="false" targetId="52b1-7e80-760a-ba86" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c38c-f294-c7f1-8910" name="Giant Bat" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff2d-d149-6b68-03f0" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae78-0bc3-eba3-4e1a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0433-8e8d-813f-06fb" name="Giant Bat" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">8&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">2</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">3</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="47.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e291-870c-3ddb-9f7a" name="Peasants" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6e3f-74c8-5bda-6fe9" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="1920-02fc-21bb-cedd" name="Mesmerized" hidden="false" targetId="593a-5aba-a6e5-8346" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8c46-1e11-ffee-2d77" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b6ee-77fc-2542-4b92" name="Peasant" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f72c-0286-0353-de06" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f33-c963-2441-2768" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="50c3-5ef3-59e9-8d19" name="Peasant" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">1</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">2</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">S</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="24.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2a9f-0ce5-0249-0826" name="Jackal Warriors" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6e3f-74c8-5bda-6fe9" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="09a1-f041-132a-eb20" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="1b0e-d434-b9b7-f9cc" name="Single Action" hidden="false" targetId="677c-d834-a6a1-7b88" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="57f2-c41e-025f-71bb" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+        <categoryLink id="dcd8-dd85-042c-dd1f" name="Monster" hidden="false" targetId="CAT_Monster" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2b37-055c-7f03-52dd" name="Jackal Warrior" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1186-de57-a33f-e1f1" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b019-0077-a79c-db77" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="615c-23ca-caa6-aeb1" name="Jackal Warrior" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">6&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">4</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">3</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">4</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">5</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">L</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Crowns" typeId="COST_CR" value="28.0"/>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="-2.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee4e-9c65-1362-d841" name="Lich Priest" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f45c-c832-7203-3e85" name="Lich Priest" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">2</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">3</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">S</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0399-2f22-d573-8b3a" name="Undead Vigor" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Spell Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">2</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Target a Friendly Undead Unit at RNG: 6&quot;. Target Unit gains 1 POW and loses the Single Action Special Rule until the EOT.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9e11-623e-050b-9017" name="Spellcaster: 2" hidden="false" targetId="32a1-585f-20f2-3af3" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3893-a591-08dd-b279" name="Hero" hidden="false" targetId="CAT_Hero" primary="false"/>
+        <categoryLink id="3685-b840-6318-b57f" name="Lich" hidden="false" targetId="213a-89fe-5c7d-0879" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="24.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af04-9663-099d-6781" name="Mummy" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6e3f-74c8-5bda-6fe9" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="09a1-f041-132a-eb20" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6c11-b327-265e-9caa" name="Raise Dead" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97e1-8292-64ff-fb60" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9430-2fa7-3359-0abc" name="Raise Dead" hidden="false" typeId="PROFILE_Card" typeName="Card">
+          <characteristics>
+            <characteristic name="Type" typeId="a42b-0732-1c22-6c18">Spell</characteristic>
+            <characteristic name="S•A•R" typeId="0cbc-107b-b97b-2de1">Action</characteristic>
+            <characteristic name="POW" typeId="34cf-cae0-1702-f4b0">2</characteristic>
+            <characteristic name="RNG" typeId="462e-45df-588e-2680">6&quot;</characteristic>
+            <characteristic name="Target" typeId="145d-b2f8-8ba7-04a1">Friendly Undead Unit</characteristic>
+            <characteristic name="Rules" typeId="0483-be00-cb50-3e84">Add D3 models to the Target, in coherency with the rest of the Unit.
+Discard any models that would exceed the Unit&apos;s initial size.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d146-ba45-9e9c-ad37" name="Spell" hidden="false" targetId="CAT_Spell" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="662d-bdbd-d777-cb53" name="Skeleton Archers" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="07e1-2d98-5ca9-5a08" name="Single Action" hidden="false" targetId="677c-d834-a6a1-7b88" type="profile"/>
+        <infoLink id="6bb6-4e93-d8e9-6327" name="Bow" hidden="false" targetId="33d9-08ae-c994-7bff" type="profile"/>
+        <infoLink id="f4c0-563b-c9f6-6914" name="Suppressive Fire" hidden="false" targetId="ba93-e821-7034-66de" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9733-a20f-a8be-792c" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+        <categoryLink id="1b44-7125-b174-12b3" name="Skeleton" hidden="false" targetId="0ab6-6933-d078-2299" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8acb-34cb-c131-1c16" name="Skeleton" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f516-b1cc-8c81-133a" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7af-c805-3a73-3128" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="af3a-90e8-caec-8209" name="Skeleton" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">4</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">2</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">S</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="69.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9ae3-f1e3-114c-2074" name="Skeleton Riders" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5c35-3641-d5a7-bd60" name="Boneless Charge" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Charge Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">3</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">This Unit gains MV: +1&quot; and may ignore any Friendly Skeleton Units for Movement and LOS purposes during this Action.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8c82-2cce-0c52-4927" name="Mounted Spears" hidden="false" targetId="9eeb-89be-fbab-b88f" type="profile"/>
+        <infoLink id="84e0-1aeb-a89e-1902" name="Single Action" hidden="false" targetId="677c-d834-a6a1-7b88" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8024-0056-0949-5101" name="Cavalry" hidden="false" targetId="CAT_Cavalry" primary="false"/>
+        <categoryLink id="c350-b088-3aac-c8b6" name="Skeleton" hidden="false" targetId="0ab6-6933-d078-2299" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b0a8-5928-a494-5fd7" name="Skeleton Rider" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eebc-6656-6c96-c59f" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc9c-1093-ef3a-28b9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="44b6-14bf-67a6-1f41" name="Skeleton Rider" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">7&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">2</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">4</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">2</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">L</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="57.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ce3-7b77-36e2-eef4" name="Skeleton Spears" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="b823-0677-e35f-1ec7" name="Single Action" hidden="false" targetId="677c-d834-a6a1-7b88" type="profile"/>
+        <infoLink id="f03f-4e4e-772c-e760" name="Spears" hidden="false" targetId="cbeb-2c10-5fdb-494e" type="profile"/>
+        <infoLink id="11fe-a2cc-0c9c-d2f9" name="Counter-Charge" hidden="false" targetId="5c6d-8014-8083-c3c4" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a6de-0f9d-9977-75d6" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+        <categoryLink id="7363-c58f-da07-68fd" name="Skeleton" hidden="false" targetId="0ab6-6933-d078-2299" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="42aa-7749-bafa-dc6e" name="Skeleton" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f5b-ab9c-73e4-ec32" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff2f-d571-fefb-5560" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8b7b-f4a9-eafc-148d" name="Skeleton" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">4</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">2</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">S</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="53.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4ad5-4a3a-987d-7ab2" name="Skeleton Warriors" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="ee19-5f5a-4868-fb4b" name="Single Action" hidden="false" targetId="677c-d834-a6a1-7b88" type="profile"/>
+        <infoLink id="baf3-d2bb-da41-2488" name="Shields Up!" hidden="false" targetId="0b1d-6e82-78a8-63b4" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c4c6-cfd2-1be2-c652" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+        <categoryLink id="eda4-b0f1-6265-c7e0" name="Skeleton" hidden="false" targetId="0ab6-6933-d078-2299" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3768-9ac5-fb74-ddaa" name="Skeleton" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55ce-4fc8-f6a7-767d" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b501-1548-1cfb-53bf" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2674-cead-83ef-f29d" name="Skeleton" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">4</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">2</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">S</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="53.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8265-28bc-a1aa-cc8a" name="Big Spiders" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="3e79-5ca9-b267-88dd" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+        <infoLink id="8696-83e1-3f0d-b603" name="Crawler" hidden="false" targetId="28d3-9e54-2026-0a88" type="profile"/>
+        <infoLink id="cf90-3c9b-7c6b-7493" name="Poison" hidden="false" targetId="f930-7f79-4d56-868c" type="profile"/>
+        <infoLink id="0d63-31fd-48f8-62fc" name="Web Strings" hidden="false" targetId="9974-7b32-d09a-ef93" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a1bd-e4e1-4fdb-3589" name="Cavalry" hidden="false" targetId="CAT_Cavalry" primary="false"/>
+        <categoryLink id="9318-3994-1a5c-8daa" name="Spider" hidden="false" targetId="9646-fcbc-375f-42fc" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8e38-7fef-80de-8261" name="Spider" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="077b-3bf1-48d4-61bf" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08d1-0f79-348a-ee70" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6b12-6094-9c53-ff2f" name="Spider" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">7&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">2</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">3</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">L</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="53.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="319e-e091-47a7-a551" name="Tomb Guard" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6e3f-74c8-5bda-6fe9" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="09a1-f041-132a-eb20" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d10f-c2ba-579b-c9f4" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="31c2-5cdf-005f-a23a" name="Halberd" hidden="false" targetId="6ba2-4053-bec3-e142" type="profile"/>
+        <infoLink id="1d75-4e97-e829-9cf3" name="Single Action" hidden="false" targetId="677c-d834-a6a1-7b88" type="profile"/>
+        <infoLink id="07c7-7c5b-44f1-e014" name="Protector" hidden="false" targetId="1902-1d09-184b-0f8c" type="profile"/>
+        <infoLink id="2622-38bd-30fc-96b6" name="Elite: Fight Back" hidden="false" targetId="5851-4aee-073f-29e2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="eb16-8eed-4c5d-ea37" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+        <categoryLink id="e0e2-56df-0830-04c4" name="Skeleton" hidden="false" targetId="0ab6-6933-d078-2299" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6d11-70f4-145a-f3c1" name="Guard" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86d4-786a-8e95-65d2" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffe7-c8f0-5b76-3b40" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c4fe-b87f-55ff-f7b5" name="Guard" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">5&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">2</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">5</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">2</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">S</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="95.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="91ee-17e4-1c76-5954" name="Vampire" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6e3f-74c8-5bda-6fe9" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="e5d0-0ad3-5713-b573" name="Vampire" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">6&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">4</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">3</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">9</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">4</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">3</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">S</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b981-611e-0857-024c" name="Vampiric" hidden="false" typeId="PROFILE_UnitRules" typeName="Unit Special Rules">
+          <characteristics>
+            <characteristic name="Rules" typeId="cef0-f08a-37af-c98e">Each model Destroyed by this Unit heals 1 Damage from this Unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ea40-2684-14d4-2889" name="Channel" hidden="false" targetId="e8c8-97bb-810e-3a06" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a840-8ec0-dd48-df2f" name="Hero" hidden="false" targetId="CAT_Hero" primary="false"/>
+        <categoryLink id="ae17-2c78-b8b1-ab91" name="Vampire" hidden="false" targetId="7f86-8601-93e4-6840" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="34.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e43-0657-7be0-5332" name="Werewolf" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="e033-1030-d717-171a" name="Werewolf" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+          <characteristics>
+            <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">6&quot;</characteristic>
+            <characteristic name="ATT" typeId="0c76-207e-160e-0b06">4</characteristic>
+            <characteristic name="STR" typeId="064d-432b-0d5c-3187">4</characteristic>
+            <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">8</characteristic>
+            <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+            <characteristic name="HP" typeId="a0b4-4089-d039-fd13">6</characteristic>
+            <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">L</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b142-3505-84ee-56ad" name="Feast" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Skill</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">2</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">This Unit heals 1 Damage from each model it Destroys in Combat.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2d89-a26c-fdda-12be" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+        <infoLink id="ea28-77f5-a654-30f8" name="Destroyer: 1" hidden="false" targetId="900c-3c49-b634-05ca" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a5cc-74e5-f847-6a6b" name="Monster" hidden="false" targetId="CAT_Monster" primary="false"/>
+        <categoryLink id="3476-d149-c8e7-a7e3" name="Werewolf" hidden="false" targetId="72ad-9f27-4e21-211e" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="34.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="de14-29e8-fe96-9453" name="Wolf Pack" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="0db1-9e57-94ed-ad40" name="Vicious" hidden="false" targetId="8ab7-ed74-ccac-4a38" type="profile"/>
+        <infoLink id="18f6-49f5-baeb-ef70" name="Vicious Charge" hidden="false" targetId="8249-cc7e-87e6-3452" type="profile"/>
+        <infoLink id="a6c2-02c7-f606-0c1e" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1a8a-d53c-bcfe-d2fe" name="Pack" hidden="false" targetId="7732-d7d6-b8eb-1b26" primary="false"/>
+        <categoryLink id="c2b5-1987-3c08-7298" name="Wolf" hidden="false" targetId="d271-acff-b8b7-6b1e" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3518-bebd-d930-df06" name="Wolf" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6028-d053-4b91-2643" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a5f-a46d-f71f-294f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1a2b-5db0-aefc-d44b" name="Wolf" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">9&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">3</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">6</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">2</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+            <cost name=" Crowns" typeId="COST_CR" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="70.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9748-474c-cb59-eff0" name="Wraiths" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="33ec-5599-961d-0330" name="Soul Shriek" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Shoot Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">3</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Target an Enemy Unit at RNG: 8&quot;. Make one Ranged Attack per model in that Unit. For each Critical Hit, Destroy one model from that Unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="eafd-4979-121d-9e6e" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+        <infoLink id="fcb0-e709-4de2-6eea" name="Spectral" hidden="false" targetId="4cc5-f08e-ae68-8ece" type="profile"/>
+        <infoLink id="bb59-0d08-43b5-c820" name="Flying" hidden="false" targetId="3fb8-4a2b-4419-2b4e" type="profile"/>
+        <infoLink id="42d0-c042-5126-418c" name="Single Action" hidden="false" targetId="677c-d834-a6a1-7b88" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b58f-3bee-383a-5a77" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+        <categoryLink id="7a04-483d-dcdd-e70a" name="Spirit" hidden="false" targetId="98f5-b7ac-6610-d389" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d30d-33a1-156d-abf8" name="Wraith" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="647e-34d8-09d5-51ab" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c126-27e6-b55d-1e95" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2780-98a3-5728-142b" name="Wraith" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">6&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">2</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">4</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">7</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">3</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">M</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="62.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0082-a9fb-88b2-bcdd" name="Zombies" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="09a1-f041-132a-eb20" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="a682-d60b-fcb5-8672" name="Brrrainss!!" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+          <characteristics>
+            <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Charge Action</characteristic>
+            <characteristic name="POW" typeId="8464-ab4c-a54d-c495">1</characteristic>
+            <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">This Unit gains MV: +4&quot; during this Action.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7dfa-fdf2-9d88-310f" name="Errant" hidden="false" targetId="5831-27bb-4597-5255" type="profile"/>
+        <infoLink id="6f84-a69d-9c6a-0e68" name="Horde" hidden="false" targetId="898f-31ae-dd53-771f" type="profile"/>
+        <infoLink id="528e-e18f-68e1-8c00" name="Limited Movement" hidden="false" targetId="6e55-6499-0fa0-a4f4" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ade2-1bf6-a6f4-b048" name="Infantry" hidden="false" targetId="CAT_Infantry" primary="false"/>
+        <categoryLink id="2de8-eacd-92b2-f7d1" name="Zombie" hidden="false" targetId="271a-9db0-d35c-d929" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a052-2baa-cbcf-c4a6" name="Zombie" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2352-6c1f-c561-d791" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8194-9eaf-2950-f652" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="27a8-0e21-6e8a-8efc" name="Zombie" hidden="false" typeId="PROFILE_Unit" typeName="Unit">
+              <characteristics>
+                <characteristic name="MV" typeId="7db1-fb3e-9cae-de6e">4&quot;</characteristic>
+                <characteristic name="ATT" typeId="0c76-207e-160e-0b06">1</characteristic>
+                <characteristic name="STR" typeId="064d-432b-0d5c-3187">2</characteristic>
+                <characteristic name="DEF" typeId="9eeb-cfec-4329-d552">5</characteristic>
+                <characteristic name="ARM" typeId="ebb2-2829-502b-061c">3</characteristic>
+                <characteristic name="HP" typeId="a0b4-4089-d039-fd13">2</characteristic>
+                <characteristic name="SIZE" typeId="c5ae-6298-c634-3aca">S</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" POW" typeId="COST_POW" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="21.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7830-98f9-e463-3900" name="Bat Form" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6e3f-74c8-5bda-6fe9" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="f18f-212d-eefb-5718" name="Bat Form" hidden="false" typeId="PROFILE_Card" typeName="Card">
+          <characteristics>
+            <characteristic name="Type" typeId="a42b-0732-1c22-6c18">Tactics</characteristic>
+            <characteristic name="S•A•R" typeId="0cbc-107b-b97b-2de1">Move Action</characteristic>
+            <characteristic name="POW" typeId="34cf-cae0-1702-f4b0">1</characteristic>
+            <characteristic name="RNG" typeId="462e-45df-588e-2680">-</characteristic>
+            <characteristic name="Target" typeId="145d-b2f8-8ba7-04a1">Friendly Vampire Hero Unit</characteristic>
+            <characteristic name="Rules" typeId="0483-be00-cb50-3e84">Target Unit gains MV: +2&quot; and the Flying special rule. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7268-05ca-a76d-2323" name="Flying" hidden="false" targetId="3fb8-4a2b-4419-2b4e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="729e-2ba3-f521-f09f" name="Tactics" hidden="false" targetId="CAT_Tactics" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="5.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a9b-00e3-4475-e95d" name="Wolf Form" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6e3f-74c8-5bda-6fe9" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="0af6-e880-b735-7c9e" name="Wolf Form" hidden="false" typeId="PROFILE_Card" typeName="Card">
+          <characteristics>
+            <characteristic name="Type" typeId="a42b-0732-1c22-6c18">Tactics</characteristic>
+            <characteristic name="S•A•R" typeId="0cbc-107b-b97b-2de1">Charge Action</characteristic>
+            <characteristic name="POW" typeId="34cf-cae0-1702-f4b0">2</characteristic>
+            <characteristic name="RNG" typeId="462e-45df-588e-2680">-</characteristic>
+            <characteristic name="Target" typeId="145d-b2f8-8ba7-04a1">Friendly Vampire Hero Unit</characteristic>
+            <characteristic name="Rules" typeId="0483-be00-cb50-3e84">Target Unit gains MV: +1&quot; and ATT: +1 until the end of this Action.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="eec3-0b7e-e202-e31b" name="Tactics" hidden="false" targetId="CAT_Tactics" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="5.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2cf5-46b8-6674-0c4d" name="Ghost Form" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6e3f-74c8-5bda-6fe9" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="eb21-56e0-f0ae-ad64" name="Ghost Form" hidden="false" typeId="PROFILE_Card" typeName="Card">
+          <characteristics>
+            <characteristic name="Type" typeId="a42b-0732-1c22-6c18">Tactics</characteristic>
+            <characteristic name="S•A•R" typeId="0cbc-107b-b97b-2de1">Reaction</characteristic>
+            <characteristic name="POW" typeId="34cf-cae0-1702-f4b0">2</characteristic>
+            <characteristic name="RNG" typeId="462e-45df-588e-2680">-</characteristic>
+            <characteristic name="Target" typeId="145d-b2f8-8ba7-04a1">Friendly Vampire Hero Unit</characteristic>
+            <characteristic name="Rules" typeId="0483-be00-cb50-3e84">Target Unit gains Spectral until EOT.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b7a1-d7b7-8832-19e8" name="Spectral" hidden="false" targetId="4cc5-f08e-ae68-8ece" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fedf-8d06-6626-601e" name="Tactics" hidden="false" targetId="CAT_Tactics" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="5.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f69c-630c-f27c-71cc" name="Blood Fury" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6e3f-74c8-5bda-6fe9" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="387f-5085-7a91-8aff" name="Blood Fury" hidden="false" typeId="PROFILE_Card" typeName="Card">
+          <characteristics>
+            <characteristic name="Type" typeId="a42b-0732-1c22-6c18">Tactics</characteristic>
+            <characteristic name="S•A•R" typeId="0cbc-107b-b97b-2de1">Skill</characteristic>
+            <characteristic name="POW" typeId="34cf-cae0-1702-f4b0">1</characteristic>
+            <characteristic name="RNG" typeId="462e-45df-588e-2680">-</characteristic>
+            <characteristic name="Target" typeId="145d-b2f8-8ba7-04a1">Friendly Vampire Hero Unit</characteristic>
+            <characteristic name="Rules" typeId="0483-be00-cb50-3e84">Target Unit gains Destroyer:1 until EOT.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6da2-3d0c-55eb-c4c9" name="Destroyer: 1" hidden="false" targetId="900c-3c49-b634-05ca" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d8c7-de16-3b8c-52cd" name="Tactics" hidden="false" targetId="CAT_Tactics" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Crowns" typeId="COST_CR" value="5.0"/>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf5a-65c3-c1ae-70c7" name="Vampiric Willpower" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6e3f-74c8-5bda-6fe9" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9ba-7432-5d5e-b8e4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f410-34da-ad4d-79d2" name="Vampiric Willpower" hidden="false" typeId="PROFILE_Card" typeName="Card">
+          <characteristics>
+            <characteristic name="Type" typeId="a42b-0732-1c22-6c18">Spell</characteristic>
+            <characteristic name="S•A•R" typeId="0cbc-107b-b97b-2de1">Action</characteristic>
+            <characteristic name="POW" typeId="34cf-cae0-1702-f4b0">2</characteristic>
+            <characteristic name="RNG" typeId="462e-45df-588e-2680">8&quot;</characteristic>
+            <characteristic name="Target" typeId="145d-b2f8-8ba7-04a1">Enemy Unit</characteristic>
+            <characteristic name="Rules" typeId="0483-be00-cb50-3e84">Vampiric Spell: This Spell can only be casted or channeled through Vampire Units.
+
+Target Unit moves up to 2&quot; to any direction as chosen by this Master.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1928-f4a7-7969-7910" name="Spell" hidden="false" targetId="CAT_Spell" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5f70-b74a-8553-77b6" name="Vampiric Seduction" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6e3f-74c8-5bda-6fe9" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3884-5ed0-cc4d-d891" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a44-8ceb-264b-e754" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2533-0496-19e0-315b" name="Vampiric Seduction" hidden="false" typeId="PROFILE_Card" typeName="Card">
+          <characteristics>
+            <characteristic name="Type" typeId="a42b-0732-1c22-6c18">Spell</characteristic>
+            <characteristic name="S•A•R" typeId="0cbc-107b-b97b-2de1">Action</characteristic>
+            <characteristic name="POW" typeId="34cf-cae0-1702-f4b0">4</characteristic>
+            <characteristic name="RNG" typeId="462e-45df-588e-2680">8&quot;</characteristic>
+            <characteristic name="Target" typeId="145d-b2f8-8ba7-04a1">Enemy Unit</characteristic>
+            <characteristic name="Rules" typeId="0483-be00-cb50-3e84">Vampiric Spell: This Spell can only be casted or channeled through Vampire Units.
+
+Target Unit gains DEF: 5 and ATT: 0 until EOT.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="677f-8874-f4aa-8459" name="Spell" hidden="false" targetId="CAT_Spell" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" POW" typeId="COST_POW" value="0.0"/>
+        <cost name=" Crowns" typeId="COST_CR" value="5.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="32da-73ff-aa66-b020" name="Terrain" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dad-b425-ae57-18a9" type="max"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b68-a8b8-677d-4c71" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="af1f-c7bb-43c2-d0a8" name="Boulder" hidden="false" collective="false" import="true" targetId="6160-4ec2-7ebf-9f23" type="selectionEntry"/>
+        <entryLink id="2053-6fad-5f52-f707" name="Hill" hidden="false" collective="false" import="true" targetId="9222-0ef7-9fa6-de15" type="selectionEntry"/>
+        <entryLink id="0bda-26fc-78e7-3b9e" name="Swamp" hidden="false" collective="false" import="true" targetId="f120-c247-4944-13fc" type="selectionEntry"/>
+        <entryLink id="4967-038e-1b76-b08e" name="Ruins" hidden="false" collective="false" import="true" targetId="848f-738c-e923-077b" type="selectionEntry"/>
+        <entryLink id="3039-1445-3221-9751" name="Graveyard" hidden="false" collective="false" import="true" targetId="f259-64b8-161a-b245" type="selectionEntry"/>
+        <entryLink id="082a-34d0-6688-eb90" name="Haunted Forest" hidden="false" collective="false" import="true" targetId="bc3b-8b03-84a8-02a1" type="selectionEntry"/>
+        <entryLink id="a0b6-9f3a-e43a-188b" name="Haunted House" hidden="false" collective="false" import="true" targetId="5c37-c5b8-4935-7985" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="0707-d1db-a392-42c0" name="Spectral" hidden="false">
+      <description>
+This Terrain can only be Damaged by Attacks with the Magic type or by Spells.
+
+</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="4cc5-f08e-ae68-8ece" name="Spectral" hidden="false" typeId="PROFILE_UnitRules" typeName="Unit Special Rules">
+      <characteristics>
+        <characteristic name="Rules" typeId="cef0-f08a-37af-c98e">This Unit can only be Damaged by Attacks with the Magic type or by Spells.
+This Unit loses Spectral during a Turn it fought in Combat.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="356f-d8dc-d744-4c74" name="Bone Supply" hidden="false" typeId="UNIT ARS" typeName="Unit S•A•R">
+      <characteristics>
+        <characteristic name="S•A•R" typeId="32c9-eceb-87a6-2634">Skill</characteristic>
+        <characteristic name="POW" typeId="8464-ab4c-a54d-c495">1</characteristic>
+        <characteristic name="Rules" typeId="ba9e-8f71-d4be-06e8">Target one Friendly Skeleton Unit at RNG: 4&quot;. Destroy any amount of models from Target Unit. For each model Destroyed this way, remove 1 Damage from this Unit.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
